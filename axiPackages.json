@@ -1,0 +1,11 @@
+{
+  "Packages": [
+    {
+      "PackageName": "AxiTestPackage",
+      "PackageDescription": "Placing Packages in repo for testing",
+      "PackageVersion": "11.4",
+      "PackageAuthor": "Axpert",
+      "PackageCreatedOn": "14-05-2026 12:38:44"
+    }
+  ]
+}
