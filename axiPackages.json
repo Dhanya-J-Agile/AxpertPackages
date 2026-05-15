@@ -215,6 +215,19 @@
         "package"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Package5.6Axi",
+      "PackageDescription": "Placing Packages in repo for testing2",
+      "PackageVersion": "11.3",
+      "PackageAuthor": "Admin",
+      "PackageCreatedOn": "2026-05-15T14:54:43Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Package5.6Axi"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
