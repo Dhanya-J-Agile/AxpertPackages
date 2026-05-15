@@ -5,14 +5,35 @@
       "PackageDescription": "Placing Packages in repo for testing",
       "PackageVersion": "11.4",
       "PackageAuthor": "Axpert",
-      "PackageCreatedOn": "14-05-2026 12:38:44"
+      "PackageCreatedOn": "14-05-2026 12:38:44",
+      "Icon": null,
+      "ColorClass": null,
+      "Tags": null,
+      "Category": null
     },
     {
       "PackageName": "Package2Axi",
       "PackageDescription": "Placing Packages in repo for testing2",
       "PackageVersion": "11.3",
       "PackageAuthor": "Admin",
-      "PackageCreatedOn": "14-05-2026 12:41:22"
+      "PackageCreatedOn": "14-05-2026 12:41:22",
+      "Icon": null,
+      "ColorClass": null,
+      "Tags": null,
+      "Category": null
+    },
+    {
+      "PackageName": "Package3Axi",
+      "PackageDescription": "Placing packages in repo for testing2",
+      "PackageVersion": "11.3",
+      "PackageAuthor": "Admin",
+      "PackageCreatedOn": "2026-05-15T07:20:45Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Package3Axi"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
