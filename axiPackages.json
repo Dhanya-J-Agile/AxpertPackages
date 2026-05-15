@@ -187,6 +187,20 @@
         "package"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "sales3_package",
+      "PackageDescription": "sales_package v1.0.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-05-15T11:55:02Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "sales3",
+        "package"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
