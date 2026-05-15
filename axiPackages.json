@@ -47,6 +47,20 @@
         "Package4Axi"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Package4_Axi",
+      "PackageDescription": "Placing packages in repo for testing2",
+      "PackageVersion": "11.3",
+      "PackageAuthor": "Admin",
+      "PackageCreatedOn": "2026-05-15T07:23:42Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Package4",
+        "Axi"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
