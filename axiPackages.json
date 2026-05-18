@@ -326,6 +326,20 @@
         "package"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "sales37_package",
+      "PackageDescription": "sales_package v1.0.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-05-18T12:48:44Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "sales37",
+        "package"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
