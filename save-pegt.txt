@@ -1,0 +1,368 @@
+Start Time : 18-05-2026 16:43:30
+Saving Data
+Cross checking field value xml length sent from client and received xml length
+Call to SaveData Web Service
+ASB XE3/32/64 DLL running
+[Compiled on 05/05/2026 15:09:42] [File Version : 11.4.0.0]] [Product Version : 11.4][64Bit(010526)]
+DB Manager created
+Current ASB DLL folder : E:\IndAxi\Web\AxpertWebScripts
+Connecting to project : avdel
+Connecting to project found : -1
+Session key validation
+Session key validation completed
+Db Manager Connection starts
+Db Manager Connection XML receied : <avdel><type>db</type><structurl></structurl><db>Postgre</db><driver>dbx</driver><version></version><dbcon>172.16.93.8</dbcon><dbuser>avdel\metaspeed</dbuser><pwd>000301590161015232163450607080013</pwd><dataurl></dataurl></avdel>
+creating connection starts...
+creating connection end...
+creating date xds...
+creating date xds end...
+PostGreConnect starts...
+PostGreConnect ends...
+db user : avdel
+Select now() as sdt 
+Time elapsed = 0
+SET SEARCH_PATH TO avdel,metaspeed,public
+
+uXDS\dexecsql\ Check intransaction
+Time elapsed = 16
+ Select nextval('connectnoseq') 
+
+uXDS\dopen\ Check intransaction
+Time elapsed = 0
+uXDS\dopen\ Check intransaction
+Time elapsed = 15
+select props from axprops where lower(name)='app' order by blobno
+
+uXDS\dopen\ Check intransaction
+Time elapsed = 0
+axprops xml  = <root updatedon="18/05/2026 14:03:07" name="app" caption="app" appverno="11.0.0.0" updusername="" updatedby="admin"><props LocalNum="498"><app color="$00EBF5F4" font="Tahoma,8"/><head font="Tahoma,12,tfff" color="$00DDE8E7"/><gridhead color="$00FFE8E8" font=""/><gridrow oddrowcolor="$00FEFCFA" evenrowcolor="$00FEF3ED"></gridrow><imgsfolder>images\</imgsfolder><container color="$00E8F1F0"/><name fontname="" fontsize="" fontbold="" fontitalic="" fontunderline="" fontcolor="" fontstrikeout=""></name><img></img><envvar><currency>INR</currency><siteno>1</siteno><millions>F</millions><postauto>F</postauto><finyrst></finyrst><finyred></finyred><oraerrfrom></oraerrfrom><oraerrto></oraerrto><cursep>F</cursep></envvar><currencies><INR></INR></currencies><appvars><m_constants value="MyConstant" param="f" hidden="false"/><axpdbdirectorypath value="" param="f" hidden="false"><l>\\\172.16.93.4\AgileBizDocs\Attachments\agileerp11uat\AxImportDbDir\</l></axpdbdirectorypath><vdim1 value="" param="f" hidden="false"><l>select DIM1 from dimension where COMPANY = :m_company</l></vdim1><vdim2 value="" param="f" hidden="false"><l>select DIM2 from dimension where COMPANY = :m_company</l></vdim2><vdim3 value="" param="f" hidden="false"><l>select DIM3 from dimension where COMPANY = :m_company</l></vdim3><vdim4 value="" param="f" hidden="false"><l>select DIM4 from dimension where COMPANY = :m_company</l></vdim4><AxMailFrom value="agilebiz.support@agile-labs.com" param="f" hidden="false"/><APPLogo value="\\172.16.93.4\AgileBizDocs2\Attachments\Zishta2024\AgileBizImage\zishta logo.png" param="f" hidden="false"/><axpegemailactionurl value="https://alpha.agilecloud.biz/arm/api/v1/ARMMailTaskAction" param="f" hidden="false"/><AxSingnalRapiURL value="https://alpha.agilecloud.biz/arm/api/v1/SendSignalR" param="f" hidden="false"/><AxRMQAPIURL value="https://alpha.agilecloud.biz/arm/api/v1/ARMPushToQueue" param="f" hidden="false"/><AxScriptsAPIURL value="https://alpha.agilecloud.biz/armscripts/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi" param="f" hidden="false"/><axdecimal value="4" param="f" hidden="false"/><tor_dashboard_logdate_from value="ALL" param="f" hidden="false"/><tor_dashboard_logdate_to value="ALL" param="f" hidden="false"/><tortimetaken_from value="ALL" param="f" hidden="false"/><tortimetaken_to value="ALL" param="f" hidden="false"/><torservicename value="ALL" param="f" hidden="false"/><custom_dashboard_cardids value="1453220000002,1457330000002" param="f" hidden="false"/><custom_dashboard_params value="custom_dashboard_params json here" param="f" hidden="false"/><torusername value="ALL" param="f" hidden="false"/><AxDisallowCreate value="instk,stock" param="f" hidden="false"/><m_companyid value="1056330000000" param="f" hidden="false"/><AxPEGMailFrom value="agilebiz.support@agile-labs.com" param="f" hidden="false"/><AppTitle value="Demo Corporation" param="f" hidden="false"/><AppSubtitle value="Demo Corporation" param="f" hidden="false"/><fiacc_filter value="and mg_account.company = cast( :m_companyid as numeric)" param="f" hidden="false"/><bilop_filter value=" and arapopbal_import.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><proda_filter value=" and asset_items.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><itopn_filter value=" and stockopeninghdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><opbac_filter value=" and glopbal_import.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><flat_filter value=" and mst_flatdiscount.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><mnctr_filter value=" and maintenance_contract.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><tspqn_filter value=" and supplierquotationhdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><rpopn_filter value=" and billwiseophdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><tslpo_filter value="and po_header.company = cast( :m_companyid as numeric) and (po_header.supplier = cast( :m_supplierid as numeric) or cast( :m_supplierid as numeric) = 0)" param="f" hidden="false"/><rtsal_filter value=" and salesinvoice_header.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><invby_filter value=" and invoicebytype_header.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><brsop_filter value=" and brsopening.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><vnum_filter value=" and tblvanMST.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><salas_filter value=" and sale_of_asset.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><losdm_filter value=" and assetdamage_hdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><MGDEP_filter value=" and department.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><inde_filter value=" and stk_indent_basic.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><astas_filter value=" and asset_assembly.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><grnas_filter value=" and grn_asset_header.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><welne_filter value=" and wellline.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><mnins_filter value=" and maintenance_jobs.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><pays_filter value=" and paystra.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><payee_filter value=" and payee.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><vchgl_filter value=" and accountshdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><mnacc_filter value=" and maintenance_accomplishment.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><wriof_filter value=" and write_off.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><pgv2c_filter value=" and axprocessdefv2.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><vchye_filter value=" and accountshdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><vchdp_filter value=" and deposit.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><paypr_filter value=" and ppbasic.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><matre_filter value=" and stockreceipt_header.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><QUTAP_filter value=" and qutappbasic.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><fitds_filter value=" and mg_tdsmst.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><grnbr_filter value=" and grnbatchbreakup_header.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><vchtr_filter value=" and accountshdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><gcust_filter value=" and mg_customer.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><exchg_filter value=" and exchange_hdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><mncor_filter value=" and maintenance_core.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><vchjt_filter value=" and Journaltemphdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><cuspi_filter value=" and item_price_updt.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><surma_filter value=" and supplierrate_header.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><tsgrn_filter value="and grn_header.company = cast( :m_companyid as numeric) and (grn_header.supplier = cast( :m_supplierid as numeric) or cast( :m_supplierid as numeric) = 0)" param="f" hidden="false"/><salod_filter value=" and salesorder_hdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><instk_filter value=" and stockissues_header.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><sttri_filter value=" and stockreceipt_header.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><fixas_filter value=" and fixed_asset_master.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><inloc_filter value=" and location.companyname = cast( :m_companyid as numeric) and location.isgit = 'F'" param="f" hidden="false"/><mnsdl_filter value=" and maintenance_schedulehdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><vchwt_filter value=" and withdrawal.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><combo_filter value=" and combo.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><incdv_filter value=" and salesinvoice_header.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><tspsc_filter value=" and poshortclosehdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><slord_filter value=" and salesorder_header.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><pbran_filter value=" and cm_branch_hdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><purre_filter value=" and purchasereturn_header.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><pacat_filter value=" and assetprodsubcategory.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><dlchl_filter value=" and deliverychallanhdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><fasri_filter value=" and fa_serializaton_hdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><rppay_filter value="and arappayhdr.company = cast( :m_companyid as numeric) and (arappayhdr.subledgername = cast( :m_suppliersubledgerid as numeric) or cast( :m_suppliersubledgerid as numeric) = 0)" param="f" hidden="false"/><vchft_filter value=" and fundtransfer.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><trfpi_filter value=" and rfpihdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><vchcl_filter value=" and closingstock_header.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><tsqap_filter value=" and qutappbasic.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><pmmod_filter value=" and mg_paymentmapping.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><gtaxt_filter value=" and taxtypes.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><prcat_filter value=" and productcategory.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><rndof_filter value=" and accountshdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><depci_filter value=" and depreciation_hdr.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><gtaxm_filter value=" and taxmaster.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><axrol_filter value=" and AXUSERGROUPS.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><tFnYr_filter value=" and financialyear.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><salry_filter value=" and salesreturns_header.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><gsupp_filter value=" and mg_supplier.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><prodm_filter value=" and item.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><empma_filter value=" and employee_master.company=cast( :m_companyid as numeric)" param="f" hidden="false"/><bran_filter value=" and branch.companyname =cast( :m_companyid as numeric)" param="f" hidden="false"/><costc_filter value="and costcentre_interface.company = cast( :m_companyid as numeric)" param="f" hidden="false"/><dimas_filter value="and dimension_interface .company = cast( :m_companyid as numeric)" param="f" hidden="false"/><bank_filter value="and bank.company = cast( :m_companyid as numeric)" param="f" hidden="false"/><taxamt_filter value=" and taxmaster.company = cast( :m_companyid as numeric)" param="f" hidden="false"/><taxmt_filter value=" and taxmaster.company = cast( :m_companyid as numeric)" param="f" hidden="false"/><rtcus_filter value="and retail_customer.company = cast( :m_companyid as numeric)" param="f" hidden="false"/><AxRapidSaveURL value=" https://alpha.agilecloud.biz/armscripts/ASBRapidSaveRest.dll/datasnap/rest/TASBRapidSaveRest/RapidSave" param="f" hidden="false"/><m_currencyrep value="" param="f" hidden="false"><l>firesql({m3}, {SELECT dispcurrency FROM company a </l><l>               WHERE a.companyid = (SELECT b.m_companyid FROM axglovar b WHERE b.username = :username)});</l><l>m_currencyrep := sqlget({m3}, {dispcurrency});</l></m_currencyrep><AxFCMSendMsgURL value="https://alpha.agilecloud.biz/arm/api/v1/SendFCMNotification" param="f" hidden="false"/><AxSignalRapiURL value="https://alpha.agilecloud.biz/arm/api/v1/SendSignalR" param="f" hidden="false"/><m_decimalplaces value="" param="f" hidden="false"><l>firesql({m4}, {SELECT decimalplaces FROM company a </l><l>               WHERE a.companyid = (SELECT b.m_companyid FROM axglovar b WHERE b.username = :username)});</l><l>m_decimalplaces := sqlget({m4}, {decimalplaces });</l></m_decimalplaces><m_curdecimals value="" param="f" hidden="false"><l>firesql({m4}, {SELECT cast( decimalplaces as numeric) as decimalplaces FROM company a </l><l>               WHERE a.companyid = (SELECT b.m_companyid FROM axglovar b WHERE b.username = :username)});</l><l>m_curdecimals := sqlget({m4}, {decimalplaces });</l></m_curdecimals><m_stockid value="" param="f" hidden="false"><l>firesql({m9}, {SELECT cast( mg_accountid as numeric) as mgaccountid FROM mg_account a WHERE a.company =  (SELECT b.m_companyid FROM axglovar b WHERE b.username = :username) and a.common_intergration_code = 1381440000000 and a.atype = 'Account'});</l><l>m_stockid := sqlget({m9}, {mgaccountid});</l></m_stockid><m_stockincdecid value="" param="f" hidden="false"><l>firesql({m9}, {SELECT  cast( mg_accountid as numeric) as mgaccountid  FROM mg_account a WHERE a.company =  (SELECT b.m_companyid FROM axglovar b WHERE b.username = :username) and a.common_intergration_code = 1474550000000 and a.atype = 'Account'});</l><l>m_stockincdecid := sqlget({m9}, {mgaccountid});</l></m_stockincdecid><m_test value="A" param="f" hidden="false"/><AxpFileServerPath value="\\172.16.93.7\AgileBizDocs\Attachments\agileerp11uat\AxImportDbDir\" param="f" hidden="false"/><AxpDbDirPath value="\\172.16.93.7\AgileBizDocs\Attachments\agileerp11uat\AxImportDbDir\" param="f" hidden="false"/><AxpFileAttachmentPath value="\\172.16.93.7\AgileBizDocs\Attachments\agileerp11uat\" param="f" hidden="false"/><m_supplierid value="" param="f" hidden="false"><l>firesql({m9}, {SELECT coalesce (sourceid,0) as supplierid FROM axusers a where a.username = :username})</l><l>m_supplierid := sqlget({m9}, {supplierid})</l></m_supplierid><m_suppliersubledgerid value="" param="f" hidden="false"><l>firesql({m9}, {SELECT coalesce (mg_subledgerid,0) as supplierid FROM axusers a left join mg_subledger b on a.sourceid = b.sourceid where a.username = :username})</l><l>m_suppliersubledgerid := sqlget({m9}, {supplierid})</l></m_suppliersubledgerid><m_suppliercontrolaccount value="" param="f" hidden="false"><l>firesql({m9}, {SELECT coalesce (b.controlaccount,0) as supplierid FROM axusers a left join mg_subledger b on a.sourceid = b.sourceid where a.username = :username})</l><l>m_suppliercontrolaccount := sqlget({m9}, {supplierid})</l></m_suppliercontrolaccount><m_suppliername value="" param="f" hidden="false"><l>firesql({m9}, {SELECT coalesce (subledgername,'ALL') as subledgername FROM axusers a left join mg_subledger b on a.sourceid = b.sourceid where a.username = :username})</l><l>m_suppliername:= sqlget({m9}, {subledgername})</l></m_suppliername><m_suppliercontrolacname value="" param="f" hidden="false"><l>firesql({m9}, {select coalesce (c.accountname,'ALL') as accountname from axusers a left join mg_subledger b on a.sourceid = b.sourceid left join mg_account c on	b.controlaccount = c.mg_accountid where a.username = :username})</l><l>m_suppliercontrolacname:= sqlget({m9}, {accountname})</l></m_suppliercontrolacname><qutup_filter value="and (quotation_updatehdr.company = cast( :m_companyid as numeric) and (quotation_updatehdr.supplier = cast( :m_supplierid as numeric) or cast( :m_supplierid as numeric) = 0))" param="f" hidden="false"/><pbill_filter value="and purchase_bill_header.company = cast( :m_companyid as numeric) and (purchase_bill_header.supplier = cast( :m_supplierid as numeric) or cast( :m_supplierid as numeric) = 0)" param="f" hidden="false"/><Exrat_filter value=" and mg_exrates.company=cast( :m_companyid as numeric)" param="f" hidden="false"/></appvars><mail><host>smtp.office365.com</host><port>587</port><userid>agilebiz.support@agile-labs.com</userid><password>Agile!@#$%12345</password></mail><pwdsetting><maxlogintry>0</maxlogintry><pwdexpdays>0</pwdexpdays><pwdalertdays>0</pwdalertdays><pwdminchars>0</pwdminchars><pwdprevnos>0</pwdprevnos><ispwdalphanum>F</ispwdalphanum><pwdaes>F</pwdaes></pwdsetting><readonlyprops readonly_fontcolor="clBlack" readonly_bgcolor="clWindow"/><gfont/></props></root>
+SELECT Constraint_Name FROM AXCONSTRAINTS where 1=2
+
+uXDS\dopen\ Check intransaction
+Time elapsed = 0
+Db Manager Connection ends
+Connection to DB Successful 
+Executing Savedata webservice
+-----------------------------
+Received XML : <Transaction  axpapp="avdel" imagefromdb="" afiles="" trace="E:\IndAxi\Web\AxpertWebScripts\Log\nxwqq4lf4vmmzp2x3mcunmac\save-pegt.txt" sessionid="nxwqq4lf4vmmzp2x3mcunmac" appsessionkey='0101986700090152016601560164014801720152015501644936364681161221500018' username='admin'><data  transid="pegt"  recordid="0"> <axp_recid1 rowno='001' >0</axp_recid1><reqid rowno='001' ></reqid><touser rowno='001' >rekhancia</touser><reason rowno='001' >Leave request</reason></data><changedrows>*</changedrows><avdel><type>db</type><structurl></structurl><db>Postgre</db><driver>dbx</driver><version></version><dbcon>172.16.93.8</dbcon><dbuser>avdel\metaspeed</dbuser><pwd>000301590161015232163450607080013</pwd><dataurl></dataurl></avdel><axprops><lastlogin>zishta2024</lastlogin><oradatestring>dd/mm/yyyy hh24:mi:ss</oradatestring><crlocation></crlocation><lastusername>admin</lastusername><login>local</login><skin>DarkBlue</skin><lastlang>ENGLISH</lastlang><axhelp>true</axhelp><showuser>t</showuser></axprops><globalvars><m_constants>MyConstant</m_constants><axpdbdirectorypath>\\172.16.93.7\AgileBizDocs\Attachments\agileerp11uat\AxImportDbDir</axpdbdirectorypath><vdim1></vdim1><vdim2></vdim2><vdim3></vdim3><vdim4></vdim4><AxMailFrom>agilebiz.support@agile-labs.com</AxMailFrom><APPLogo>\\172.16.93.4\AgileBizDocs2\Attachments\Zishta2024\AgileBizImage\zishta logo.png</APPLogo><axpegemailactionurl>https://ind.axi-global.com/ARM_API/ARM_APIs/api/v1/ARMMailTaskAction</axpegemailactionurl><AxSingnalRapiURL>https://alpha.agilecloud.biz/arm/api/v1/SendSignalR</AxSingnalRapiURL><AxRMQAPIURL>https://ind.axi-global.com/ARM_API/ARM_APIs/api/v1/ARMPushToQueue</AxRMQAPIURL><AxScriptsAPIURL>https://ind.axi-global.com/armscripts/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi</AxScriptsAPIURL><axdecimal>4</axdecimal><tor_dashboard_logdate_from>ALL</tor_dashboard_logdate_from><tor_dashboard_logdate_to>ALL</tor_dashboard_logdate_to><tortimetaken_from>ALL</tortimetaken_from><tortimetaken_to>ALL</tortimetaken_to><torservicename>ALL</torservicename><custom_dashboard_cardids>1453220000002,1457330000002</custom_dashboard_cardids><custom_dashboard_params>custom_dashboard_params json here</custom_dashboard_params><torusername>ALL</torusername><AxDisallowCreate>instk,stock</AxDisallowCreate><m_companyid>1651110000001</m_companyid><AxPEGMailFrom>agilebiz.support@agile-labs.com</AxPEGMailFrom><AppTitle>Demo Corporation</AppTitle><AppSubtitle>Demo Corporation</AppSubtitle><fiacc_filter>and mg_account.company = cast( :m_companyid as numeric)</fiacc_filter><bilop_filter> and arapopbal_import.company=cast( :m_companyid as numeric)</bilop_filter><proda_filter> and asset_items.company=cast( :m_companyid as numeric)</proda_filter><itopn_filter> and stockopeninghdr.company=cast( :m_companyid as numeric)</itopn_filter><opbac_filter> and glopbal_import.company=cast( :m_companyid as numeric)</opbac_filter><flat_filter> and mst_flatdiscount.company=cast( :m_companyid as numeric)</flat_filter><mnctr_filter> and maintenance_contract.company=cast( :m_companyid as numeric)</mnctr_filter><tspqn_filter> and supplierquotationhdr.company=cast( :m_companyid as numeric)</tspqn_filter><rpopn_filter> and billwiseophdr.company=cast( :m_companyid as numeric)</rpopn_filter><tslpo_filter>and po_header.company = cast( :m_companyid as numeric) and (po_header.supplier = cast( :m_supplierid as numeric) or cast( :m_supplierid as numeric) = 0)</tslpo_filter><rtsal_filter> and salesinvoice_header.company=cast( :m_companyid as numeric)</rtsal_filter><invby_filter> and invoicebytype_header.company=cast( :m_companyid as numeric)</invby_filter><brsop_filter> and brsopening.company=cast( :m_companyid as numeric)</brsop_filter><vnum_filter> and tblvanMST.company=cast( :m_companyid as numeric)</vnum_filter><salas_filter> and sale_of_asset.company=cast( :m_companyid as numeric)</salas_filter><losdm_filter> and assetdamage_hdr.company=cast( :m_companyid as numeric)</losdm_filter><MGDEP_filter> and department.company=cast( :m_companyid as numeric)</MGDEP_filter><inde_filter> and stk_indent_basic.company=cast( :m_companyid as numeric)</inde_filter><astas_filter> and asset_assembly.company=cast( :m_companyid as numeric)</astas_filter><grnas_filter> and grn_asset_header.company=cast( :m_companyid as numeric)</grnas_filter><welne_filter> and wellline.company=cast( :m_companyid as numeric)</welne_filter><mnins_filter> and maintenance_jobs.company=cast( :m_companyid as numeric)</mnins_filter><pays_filter> and paystra.company=cast( :m_companyid as numeric)</pays_filter><payee_filter> and payee.company=cast( :m_companyid as numeric)</payee_filter><vchgl_filter> and accountshdr.company=cast( :m_companyid as numeric)</vchgl_filter><mnacc_filter> and maintenance_accomplishment.company=cast( :m_companyid as numeric)</mnacc_filter><wriof_filter> and write_off.company=cast( :m_companyid as numeric)</wriof_filter><pgv2c_filter> and axprocessdefv2.company=cast( :m_companyid as numeric)</pgv2c_filter><vchye_filter> and accountshdr.company=cast( :m_companyid as numeric)</vchye_filter><vchdp_filter> and deposit.company=cast( :m_companyid as numeric)</vchdp_filter><paypr_filter> and ppbasic.company=cast( :m_companyid as numeric)</paypr_filter><matre_filter> and stockreceipt_header.company=cast( :m_companyid as numeric)</matre_filter><QUTAP_filter> and qutappbasic.company=cast( :m_companyid as numeric)</QUTAP_filter><fitds_filter> and mg_tdsmst.company=cast( :m_companyid as numeric)</fitds_filter><grnbr_filter> and grnbatchbreakup_header.company=cast( :m_companyid as numeric)</grnbr_filter><vchtr_filter> and accountshdr.company=cast( :m_companyid as numeric)</vchtr_filter><gcust_filter> and mg_customer.company=cast( :m_companyid as numeric)</gcust_filter><exchg_filter> and exchange_hdr.company=cast( :m_companyid as numeric)</exchg_filter><mncor_filter> and maintenance_core.company=cast( :m_companyid as numeric)</mncor_filter><vchjt_filter> and Journaltemphdr.company=cast( :m_companyid as numeric)</vchjt_filter><cuspi_filter> and item_price_updt.company=cast( :m_companyid as numeric)</cuspi_filter><surma_filter> and supplierrate_header.company=cast( :m_companyid as numeric)</surma_filter><tsgrn_filter>and grn_header.company = cast( :m_companyid as numeric) and (grn_header.supplier = cast( :m_supplierid as numeric) or cast( :m_supplierid as numeric) = 0)</tsgrn_filter><salod_filter> and salesorder_hdr.company=cast( :m_companyid as numeric)</salod_filter><instk_filter> and stockissues_header.company=cast( :m_companyid as numeric)</instk_filter><sttri_filter> and stockreceipt_header.company=cast( :m_companyid as numeric)</sttri_filter><fixas_filter> and fixed_asset_master.company=cast( :m_companyid as numeric)</fixas_filter><inloc_filter> and location.companyname = cast( :m_companyid as numeric) and location.isgit = 'F'</inloc_filter><mnsdl_filter> and maintenance_schedulehdr.company=cast( :m_companyid as numeric)</mnsdl_filter><vchwt_filter> and withdrawal.company=cast( :m_companyid as numeric)</vchwt_filter><combo_filter> and combo.company=cast( :m_companyid as numeric)</combo_filter><incdv_filter> and salesinvoice_header.company=cast( :m_companyid as numeric)</incdv_filter><tspsc_filter> and poshortclosehdr.company=cast( :m_companyid as numeric)</tspsc_filter><slord_filter> and salesorder_header.company=cast( :m_companyid as numeric)</slord_filter><pbran_filter> and cm_branch_hdr.company=cast( :m_companyid as numeric)</pbran_filter><purre_filter> and purchasereturn_header.company=cast( :m_companyid as numeric)</purre_filter><pacat_filter> and assetprodsubcategory.company=cast( :m_companyid as numeric)</pacat_filter><dlchl_filter> and deliverychallanhdr.company=cast( :m_companyid as numeric)</dlchl_filter><fasri_filter> and fa_serializaton_hdr.company=cast( :m_companyid as numeric)</fasri_filter><rppay_filter>and arappayhdr.company = cast( :m_companyid as numeric) and (arappayhdr.subledgername = cast( :m_suppliersubledgerid as numeric) or cast( :m_suppliersubledgerid as numeric) = 0)</rppay_filter><vchft_filter> and fundtransfer.company=cast( :m_companyid as numeric)</vchft_filter><trfpi_filter> and rfpihdr.company=cast( :m_companyid as numeric)</trfpi_filter><vchcl_filter> and closingstock_header.company=cast( :m_companyid as numeric)</vchcl_filter><tsqap_filter> and qutappbasic.company=cast( :m_companyid as numeric)</tsqap_filter><pmmod_filter> and mg_paymentmapping.company=cast( :m_companyid as numeric)</pmmod_filter><gtaxt_filter> and taxtypes.company=cast( :m_companyid as numeric)</gtaxt_filter><prcat_filter> and productcategory.company=cast( :m_companyid as numeric)</prcat_filter><rndof_filter> and accountshdr.company=cast( :m_companyid as numeric)</rndof_filter><depci_filter> and depreciation_hdr.company=cast( :m_companyid as numeric)</depci_filter><gtaxm_filter> and taxmaster.company=cast( :m_companyid as numeric)</gtaxm_filter><axrol_filter> and AXUSERGROUPS.company=cast( :m_companyid as numeric)</axrol_filter><tFnYr_filter> and financialyear.company=cast( :m_companyid as numeric)</tFnYr_filter><salry_filter> and salesreturns_header.company=cast( :m_companyid as numeric)</salry_filter><gsupp_filter> and mg_supplier.company=cast( :m_companyid as numeric)</gsupp_filter><prodm_filter> and item.company=cast( :m_companyid as numeric)</prodm_filter><empma_filter> and employee_master.company=cast( :m_companyid as numeric)</empma_filter><bran_filter> and branch.companyname =cast( :m_companyid as numeric)</bran_filter><costc_filter>and costcentre_interface.company = cast( :m_companyid as numeric)</costc_filter><dimas_filter>and dimension_interface .company = cast( :m_companyid as numeric)</dimas_filter><bank_filter>and bank.company = cast( :m_companyid as numeric)</bank_filter><taxamt_filter> and taxmaster.company = cast( :m_companyid as numeric)</taxamt_filter><taxmt_filter> and taxmaster.company = cast( :m_companyid as numeric)</taxmt_filter><rtcus_filter>and retail_customer.company = cast( :m_companyid as numeric)</rtcus_filter><AxRapidSaveURL>https://ind.axi-global.com/armscripts/ASBRapidSaveRest.dll/datasnap/rest/TASBRapidSaveRest/RapidSave</AxRapidSaveURL><m_currencyrep>Millions</m_currencyrep><AxFCMSendMsgURL>https://ind.axi-global.com/ARM_API/ARM_APIs/api/v1/SendFCMNotification</AxFCMSendMsgURL><AxSignalRapiURL>https://ind.axi-global.com/ARM_API/ARMNotificationHub/api/v1/SendSignalR</AxSignalRapiURL><m_decimalplaces></m_decimalplaces><m_curdecimals>2</m_curdecimals><m_stockid></m_stockid><m_stockincdecid></m_stockincdecid><m_test>A</m_test><AxpFileServerPath>\\172.16.93.7\AgileBizDocs\Attachments\agileerp11uat\AxImportDbDir\</AxpFileServerPath><AxpDbDirPath>\\172.16.93.7\AgileBizDocs\Attachments\agileerp11uat\AxImportDbDir\</AxpDbDirPath><AxpFileAttachmentPath>\\172.16.93.7\AgileBizDocs\Attachments\agileerp11uat\</AxpFileAttachmentPath><m_supplierid>0</m_supplierid><m_suppliersubledgerid>0</m_suppliersubledgerid><m_suppliercontrolaccount>0</m_suppliercontrolaccount><m_suppliername>ALL</m_suppliername><m_suppliercontrolacname>ALL</m_suppliercontrolacname><qutup_filter>and (quotation_updatehdr.company = cast( :m_companyid as numeric) and (quotation_updatehdr.supplier = cast( :m_supplierid as numeric) or cast( :m_supplierid as numeric) = 0))</qutup_filter><pbill_filter>and purchase_bill_header.company = cast( :m_companyid as numeric) and (purchase_bill_header.supplier = cast( :m_supplierid as numeric) or cast( :m_supplierid as numeric) = 0)</pbill_filter><Exrat_filter> and mg_exrates.company=cast( :m_companyid as numeric)</Exrat_filter><axglo_recordid>1970880000000</axglo_recordid><m_company>AVDEL (INDIA) PRIVATE LIMITED</m_company><m_branch>THANE</m_branch><m_finyr>2026</m_finyr><m_location>THANE</m_location><m_fystartdate>01/04/2026</m_fystartdate><m_bridentifier>19HQ</m_bridentifier><m_companycode>19</m_companycode><m_currency>INR</m_currency><m_spinterval></m_spinterval><fromuserlogin>F</fromuserlogin><axp_displaytext>For the User:admin,Company:AVDEL (INDIA) PRIVATE LIMITED,Branch:THANE,Warehouse:THANE,Financial Year:2026,Dimensions Enabled:T</axp_displaytext><axglo_hide>T</axglo_hide><m_fyenddate>31/03/2027</m_fyenddate><axpimageserver></axpimageserver><m_taxtype>GST</m_taxtype><m_cursymbol>?</m_cursymbol><axglo_user>admin</axglo_user><m_currencyid>1119010000000</m_currencyid><m_branchid>1651110000003</m_branchid><m_branchlists>ALL</m_branchlists><m_accesstobranches>T</m_accesstobranches><m_accesstolocations>T</m_accesstolocations><m_locationlists>ALL</m_locationlists><m_opbaldate>01/04/2025</m_opbaldate><m_today>08/05/2026</m_today><m_enablecostcentre>T</m_enablecostcentre><m_country>INDIA</m_country><m_locationid>1651110000004</m_locationid><m_axpfileattachmentpath>\\172.16.93.7\AgileBizDocs\Attachments\agileerp11uat\Projects\AVDEL\</m_axpfileattachmentpath><millions>F</millions><username>admin</username><responsibilies>default</responsibilies><rolename>default</rolename><ax_evalcopy>F</ax_evalcopy><sesid>nxwqq4lf4vmmzp2x3mcunmac</sesid><usergroup>default</usergroup><project>avdel</project><axp_connectionname>avdel</axp_connectionname><groupno>2</groupno><userroles>default</userroles><pageaccess></pageaccess><axp_apipath>https://ind.axi-global.com/indscripts/</axp_apipath><axp_appschema>avdel</axp_appschema><axp_clientlocale>en-US*Asia/Calcutta^english*5/18/2026 3:18:22 PM*241</axp_clientlocale><transidlist>0D00000009F6B85BFF63570C967971187EBC5B5B</transidlist><appvartypes>ccccccccccccccccccccccnccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccnccccdcccccccdccccnnccccddccnc</appvartypes><auth_path>E:\IndAxi\Web\AxpertWebScripts</auth_path><VirtualUploadFilePath>\\172.16.93.7\IndShare\Upload\</VirtualUploadFilePath><VirtualDownloadFilePath>\\172.16.93.7\IndShare\Download\</VirtualDownloadFilePath><VirtualFilePathMapUser></VirtualFilePathMapUser><VirtualFilePathMapPwd></VirtualFilePathMapPwd></globalvars><uservars></uservars></Transaction>
+Registering app/user variables for the session
+Registering DBMem variables
+Registering DBMem variables completed
+Registering ConfigParam variables
+Registering ConfigParam variables completed
+VirtualFilePathMapPwd=
+VirtualFilePathMapUser=
+VirtualDownloadFilePath=\\172.16.93.7\IndShare\Download\
+VirtualUploadFilePath=\\172.16.93.7\IndShare\Upload\
+auth_path=E:\IndAxi\Web\AxpertWebScripts
+axp_clientlocale=en-US*Asia/Calcutta^english*5/18/2026 3:18:22 PM*241
+axp_appschema=avdel
+axp_apipath=https://ind.axi-global.com/indscripts/
+axp_connectionname=avdel
+sesid=nxwqq4lf4vmmzp2x3mcunmac
+ax_evalcopy=F
+rolename=default
+responsibilies=default
+millions=F
+m_axpfileattachmentpath=\\172.16.93.7\AgileBizDocs\Attachments\agileerp11uat\Projects\AVDEL\
+m_locationid=1651110000004
+m_country=INDIA
+m_enablecostcentre=T
+m_today=08/05/2026
+m_opbaldate=01/04/2025
+m_locationlists=ALL
+m_accesstolocations=T
+m_accesstobranches=T
+m_branchlists=ALL
+m_branchid=1651110000003
+m_currencyid=1119010000000
+axglo_user=admin
+m_cursymbol=?
+m_taxtype=GST
+axpimageserver=
+m_fyenddate=31/03/2027
+axglo_hide=T
+axp_displaytext=For the User:admin,Company:AVDEL (INDIA) PRIVATE LIMITED,Branch:THANE,Warehouse:THANE,Financial Year:2026,Dimensions Enabled:T
+fromuserlogin=F
+m_spinterval=
+m_currency=INR
+m_companycode=19
+m_bridentifier=19HQ
+m_fystartdate=01/04/2026
+m_location=THANE
+m_finyr=2026
+m_branch=THANE
+m_company=AVDEL (INDIA) PRIVATE LIMITED
+axglo_recordid=1970880000000
+Exrat_filter= and mg_exrates.company=cast( :m_companyid as numeric)
+pbill_filter=and purchase_bill_header.company = cast( :m_companyid as numeric) and (purchase_bill_header.supplier = cast( :m_supplierid as numeric) or cast( :m_supplierid as numeric) = 0)
+qutup_filter=and (quotation_updatehdr.company = cast( :m_companyid as numeric) and (quotation_updatehdr.supplier = cast( :m_supplierid as numeric) or cast( :m_supplierid as numeric) = 0))
+m_suppliercontrolacname=ALL
+m_suppliername=ALL
+m_suppliercontrolaccount=0
+m_suppliersubledgerid=0
+m_supplierid=0
+AxpFileAttachmentPath=\\172.16.93.7\AgileBizDocs\Attachments\agileerp11uat\
+AxpDbDirPath=\\172.16.93.7\AgileBizDocs\Attachments\agileerp11uat\AxImportDbDir\
+AxpFileServerPath=\\172.16.93.7\AgileBizDocs\Attachments\agileerp11uat\AxImportDbDir\
+m_test=A
+m_stockincdecid=
+m_stockid=
+m_curdecimals=2
+m_decimalplaces=
+AxSignalRapiURL=https://ind.axi-global.com/ARM_API/ARMNotificationHub/api/v1/SendSignalR
+AxFCMSendMsgURL=https://ind.axi-global.com/ARM_API/ARM_APIs/api/v1/SendFCMNotification
+m_currencyrep=Millions
+AxRapidSaveURL=https://ind.axi-global.com/armscripts/ASBRapidSaveRest.dll/datasnap/rest/TASBRapidSaveRest/RapidSave
+rtcus_filter=and retail_customer.company = cast( :m_companyid as numeric)
+taxmt_filter= and taxmaster.company = cast( :m_companyid as numeric)
+taxamt_filter= and taxmaster.company = cast( :m_companyid as numeric)
+bank_filter=and bank.company = cast( :m_companyid as numeric)
+dimas_filter=and dimension_interface .company = cast( :m_companyid as numeric)
+costc_filter=and costcentre_interface.company = cast( :m_companyid as numeric)
+bran_filter= and branch.companyname =cast( :m_companyid as numeric)
+empma_filter= and employee_master.company=cast( :m_companyid as numeric)
+prodm_filter= and item.company=cast( :m_companyid as numeric)
+gsupp_filter= and mg_supplier.company=cast( :m_companyid as numeric)
+salry_filter= and salesreturns_header.company=cast( :m_companyid as numeric)
+tFnYr_filter= and financialyear.company=cast( :m_companyid as numeric)
+axrol_filter= and AXUSERGROUPS.company=cast( :m_companyid as numeric)
+gtaxm_filter= and taxmaster.company=cast( :m_companyid as numeric)
+depci_filter= and depreciation_hdr.company=cast( :m_companyid as numeric)
+rndof_filter= and accountshdr.company=cast( :m_companyid as numeric)
+prcat_filter= and productcategory.company=cast( :m_companyid as numeric)
+gtaxt_filter= and taxtypes.company=cast( :m_companyid as numeric)
+pmmod_filter= and mg_paymentmapping.company=cast( :m_companyid as numeric)
+tsqap_filter= and qutappbasic.company=cast( :m_companyid as numeric)
+vchcl_filter= and closingstock_header.company=cast( :m_companyid as numeric)
+trfpi_filter= and rfpihdr.company=cast( :m_companyid as numeric)
+vchft_filter= and fundtransfer.company=cast( :m_companyid as numeric)
+rppay_filter=and arappayhdr.company = cast( :m_companyid as numeric) and (arappayhdr.subledgername = cast( :m_suppliersubledgerid as numeric) or cast( :m_suppliersubledgerid as numeric) = 0)
+fasri_filter= and fa_serializaton_hdr.company=cast( :m_companyid as numeric)
+dlchl_filter= and deliverychallanhdr.company=cast( :m_companyid as numeric)
+pacat_filter= and assetprodsubcategory.company=cast( :m_companyid as numeric)
+purre_filter= and purchasereturn_header.company=cast( :m_companyid as numeric)
+pbran_filter= and cm_branch_hdr.company=cast( :m_companyid as numeric)
+slord_filter= and salesorder_header.company=cast( :m_companyid as numeric)
+tspsc_filter= and poshortclosehdr.company=cast( :m_companyid as numeric)
+incdv_filter= and salesinvoice_header.company=cast( :m_companyid as numeric)
+combo_filter= and combo.company=cast( :m_companyid as numeric)
+vchwt_filter= and withdrawal.company=cast( :m_companyid as numeric)
+mnsdl_filter= and maintenance_schedulehdr.company=cast( :m_companyid as numeric)
+inloc_filter= and location.companyname = cast( :m_companyid as numeric) and location.isgit = 'F'
+fixas_filter= and fixed_asset_master.company=cast( :m_companyid as numeric)
+sttri_filter= and stockreceipt_header.company=cast( :m_companyid as numeric)
+instk_filter= and stockissues_header.company=cast( :m_companyid as numeric)
+salod_filter= and salesorder_hdr.company=cast( :m_companyid as numeric)
+tsgrn_filter=and grn_header.company = cast( :m_companyid as numeric) and (grn_header.supplier = cast( :m_supplierid as numeric) or cast( :m_supplierid as numeric) = 0)
+surma_filter= and supplierrate_header.company=cast( :m_companyid as numeric)
+cuspi_filter= and item_price_updt.company=cast( :m_companyid as numeric)
+vchjt_filter= and Journaltemphdr.company=cast( :m_companyid as numeric)
+mncor_filter= and maintenance_core.company=cast( :m_companyid as numeric)
+exchg_filter= and exchange_hdr.company=cast( :m_companyid as numeric)
+gcust_filter= and mg_customer.company=cast( :m_companyid as numeric)
+vchtr_filter= and accountshdr.company=cast( :m_companyid as numeric)
+grnbr_filter= and grnbatchbreakup_header.company=cast( :m_companyid as numeric)
+fitds_filter= and mg_tdsmst.company=cast( :m_companyid as numeric)
+QUTAP_filter= and qutappbasic.company=cast( :m_companyid as numeric)
+matre_filter= and stockreceipt_header.company=cast( :m_companyid as numeric)
+paypr_filter= and ppbasic.company=cast( :m_companyid as numeric)
+vchdp_filter= and deposit.company=cast( :m_companyid as numeric)
+vchye_filter= and accountshdr.company=cast( :m_companyid as numeric)
+pgv2c_filter= and axprocessdefv2.company=cast( :m_companyid as numeric)
+wriof_filter= and write_off.company=cast( :m_companyid as numeric)
+mnacc_filter= and maintenance_accomplishment.company=cast( :m_companyid as numeric)
+vchgl_filter= and accountshdr.company=cast( :m_companyid as numeric)
+payee_filter= and payee.company=cast( :m_companyid as numeric)
+pays_filter= and paystra.company=cast( :m_companyid as numeric)
+mnins_filter= and maintenance_jobs.company=cast( :m_companyid as numeric)
+welne_filter= and wellline.company=cast( :m_companyid as numeric)
+grnas_filter= and grn_asset_header.company=cast( :m_companyid as numeric)
+astas_filter= and asset_assembly.company=cast( :m_companyid as numeric)
+inde_filter= and stk_indent_basic.company=cast( :m_companyid as numeric)
+MGDEP_filter= and department.company=cast( :m_companyid as numeric)
+losdm_filter= and assetdamage_hdr.company=cast( :m_companyid as numeric)
+salas_filter= and sale_of_asset.company=cast( :m_companyid as numeric)
+vnum_filter= and tblvanMST.company=cast( :m_companyid as numeric)
+brsop_filter= and brsopening.company=cast( :m_companyid as numeric)
+invby_filter= and invoicebytype_header.company=cast( :m_companyid as numeric)
+rtsal_filter= and salesinvoice_header.company=cast( :m_companyid as numeric)
+tslpo_filter=and po_header.company = cast( :m_companyid as numeric) and (po_header.supplier = cast( :m_supplierid as numeric) or cast( :m_supplierid as numeric) = 0)
+rpopn_filter= and billwiseophdr.company=cast( :m_companyid as numeric)
+tspqn_filter= and supplierquotationhdr.company=cast( :m_companyid as numeric)
+mnctr_filter= and maintenance_contract.company=cast( :m_companyid as numeric)
+flat_filter= and mst_flatdiscount.company=cast( :m_companyid as numeric)
+opbac_filter= and glopbal_import.company=cast( :m_companyid as numeric)
+itopn_filter= and stockopeninghdr.company=cast( :m_companyid as numeric)
+proda_filter= and asset_items.company=cast( :m_companyid as numeric)
+bilop_filter= and arapopbal_import.company=cast( :m_companyid as numeric)
+fiacc_filter=and mg_account.company = cast( :m_companyid as numeric)
+AppSubtitle=Demo Corporation
+AppTitle=Demo Corporation
+AxPEGMailFrom=agilebiz.support@agile-labs.com
+m_companyid=1651110000001
+AxDisallowCreate=instk,stock
+torusername=ALL
+custom_dashboard_params=custom_dashboard_params json here
+custom_dashboard_cardids=1453220000002,1457330000002
+torservicename=ALL
+tortimetaken_to=ALL
+tortimetaken_from=ALL
+tor_dashboard_logdate_to=ALL
+tor_dashboard_logdate_from=ALL
+axdecimal=4
+AxScriptsAPIURL=https://ind.axi-global.com/armscripts/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi
+AxRMQAPIURL=https://ind.axi-global.com/ARM_API/ARM_APIs/api/v1/ARMPushToQueue
+AxSingnalRapiURL=https://alpha.agilecloud.biz/arm/api/v1/SendSignalR
+axpegemailactionurl=https://ind.axi-global.com/ARM_API/ARM_APIs/api/v1/ARMMailTaskAction
+APPLogo=\\172.16.93.4\AgileBizDocs2\Attachments\Zishta2024\AgileBizImage\zishta logo.png
+AxMailFrom=agilebiz.support@agile-labs.com
+vdim4=
+vdim3=
+vdim2=
+vdim1=
+axpdbdirectorypath=\\172.16.93.7\AgileBizDocs\Attachments\agileerp11uat\AxImportDbDir
+m_constants=MyConstant
+LStr : 0D00000009F6B85BFF63570C967971187EBC5B5B
+User Group default
+User Roles default
+Registering app/user variables for the session completed with dl
+Creating DbCall
+select * from pegt1 where pegt1id=0
+Time elapsed = 0
+Loading genmaps
+Creating Action object
+Submitting data to dbcall
+Submiting & Registering data 
+Registering Global variables data 
+Registering Global variables data over
+Setting values over
+Creating changed web rows list
+Changed Web DC : #text
+Changed Web DC Rows: '*',
+DB Call Validate and save
+
+>>Validating pegt
+
+>>Frame No 1
+reqid = 
+Select * FROM Sequence WHERE lower(TRANSTYPE) = 'pegt' order by activesequence desc 
+
+uXDS\dopen\ Check intransaction
+Time elapsed = 16
+Select * FROM Sequence WHERE lower(TRANSTYPE)='pegt' and lower(FIELDNAME)='reqid'and lower(prefixfield)='field2'
+Time elapsed = 0
+reqid after validation = 006
+touser = rekhancia
+select a.username from axusers a
+
+Time elapsed = 0
+Query opened , Record count : 85
+reason = Leave request
+Starting Transaction
+Start Transaction Status : 0
+End of Starting Transaction
+Start Transaction Status : -1
+time zone difference  = 0
+
+>>Writing to tables pegt
+Saving to table PEGT1
+select * from PEGT1 where PEGT1id=0
+Time elapsed = 15
+Adding new record to store data from Frame 1, Row 1 Parent Row 0
+uXDS\dexecsql\ Check intransaction
+uXDS\dexecsql\ savepoint a
+Time elapsed = 0
+RecordId = 1568770000000
+MapName 
+SourceId 0
+GetNoOfTrans Check
+Reg Type : 
+reason = Leave request
+touser = rekhancia
+Select * FROM Sequence WHERE lower(TRANSTYPE)='pegt' and lower(FIELDNAME)='reqid'and lower(prefixfield)='field2'
+Time elapsed = 0
+update Sequence set lastno = 7 where lower(TRANSTYPE)='pegt' and lower(FIELDNAME)='reqid'and lower(prefixfield)='field2'
+
+uXDS\dexecsql\ Check intransaction
+uXDS\dexecsql\ savepoint a
+Time elapsed = 16
+reqid = 006
+Posting record
+t=1568770000000
+select reqid from PEGT1 where reqid = '006' and PEGT1id <> :t
+t=1568770000000
+Time elapsed = 0
+insert into PEGT1 (pegt1id,mapname,sourceid,cancel,createdby,createdon,username,modifiedon,app_desc,app_level,reason,touser,reqid) values (1568770000000,null,0,'F','admin',to_timestamp('18/05/2026 16:43:30','dd/mm/yyyy hh24:mi:ss'),'admin',to_timestamp('18/05/2026 16:43:30','dd/mm/yyyy hh24:mi:ss'),'1','1','Leave request','rekhancia','006')
+
+uXDS\pinsert\ Check intransaction
+uXDS\pinsert\ ExecuteDirect - savepoint a
+Time elapsed for insert/update = 62
+
+>>Executing genmaps
+Time elapsed for Gen Map = 0
+Time elapsed for MD Map = 0
+uDBCall\SaveData\ checking InTransaction...
+Time elapsed for Save History = 0
+Time elapsed for Save Attachment = 0
+Time elapsed for After Save WF Exec = 0
+Committing Transaction
+Committing Transaction Status : -1
+End of Committing Transaction
+Committing Transaction Status : 0
+Transaction commited
+ASBTStructObj/ProcessRMQMessages starts...
+ASBTStructObj/ProcessRMQMessages ends.
+Creating message node
+Constraint Name  = PEG Test Form Saved (Request ID-006),recordid=1568770000000
+select msg from axconstraints where lower(constraint_name) = 'peg test form saved (request id-006),recordid=1568770000000'
+Time elapsed = 0
+Result : {"message":[{"msg":"PEG Test Form Saved (Request ID-006),recordid=1568770000000"}]}*$*{"result":[{"save": "success"}]}
+Savedata webservice completed
+
+
+Freeing DbCall Resources
+Freeing Store data
+Freeing DD Map
+Freeing Provide Link
+Freeing Validate
+Freeing Parser
+Freeing Poststr
+Freeing Maxrows
+Freeing Fnames
+Freeing NewMaxRows
+Freeing tlines
+Freeing workquery
+Freeing Struct
+Freeing EventList
+Freeing Tree Obj
+Freeing Workflow Obj
+Done - Workflow Obj
+Freeing DbCall Completed
+Freeing Action Obj Resources
+# 1#Saving to log
+insert into axpertlog (sessionid,username,calledon,callfinished,structname,recordid,servicename,serviceresult,timetaken,dbtimetaken,db_conntime) values ('nxwqq4lf4vmmzp2x3mcunmac','admin',to_timestamp('18/05/2026 16:43:30','dd/mm/yyyy hh24:mi:ss'),to_timestamp('18/05/2026 16:43:31','dd/mm/yyyy hh24:mi:ss'),'pegt',1568770000000,'Saving data','success',915,93,0)
+
+uXDS\pinsert\ Check intransaction
+Closing connection
+Freeing AxProvider Resources
+Destroying License Manager
+Destroying License Manager XDS
+Destroying License Manager Completed
+Freeing DbManager Resources
+Destroying Default xds in db manager 
+Destroying connect object
+Disconnecting from db avdel
+Keep Connection setting false
+Disconnecting...
+Disconnected...
+Dbx name = 
+ConnectionName  = 
+DriverName  = 
+GetDriverFunc  = 
+LibraryName  = 
+VendorLib  = 
+Successfully disconnected from db avdel
+Destroyed connect object
+Destroying GF
+End Time : 18-05-2026 16:43:31
