@@ -25,6 +25,20 @@
         "PackageAxiNEWTesting"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "CMD_Test",
+      "PackageDescription": "NEW API Test ",
+      "PackageVersion": "11.3",
+      "PackageAuthor": "Admin",
+      "PackageCreatedOn": "2026-05-20T04:45:09Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "CMD",
+        "Test"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
