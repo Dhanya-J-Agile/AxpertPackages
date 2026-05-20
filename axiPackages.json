@@ -67,6 +67,20 @@
         "0099"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "sales26_package",
+      "PackageDescription": "sales_package v1.0.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-05-20T06:39:09Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "sales26",
+        "package"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
