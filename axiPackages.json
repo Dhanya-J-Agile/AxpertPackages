@@ -39,6 +39,20 @@
         "Test"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "CMD_Test1",
+      "PackageDescription": "NEW API Test new1 ",
+      "PackageVersion": "11.3",
+      "PackageAuthor": "Admin",
+      "PackageCreatedOn": "2026-05-20T04:53:28Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "CMD",
+        "Test1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
