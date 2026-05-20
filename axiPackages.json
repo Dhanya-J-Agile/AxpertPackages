@@ -53,6 +53,20 @@
         "Test1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ERP 0099",
+      "PackageDescription": "ERP",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-05-20T06:03:41Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ERP",
+        "0099"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
