@@ -12,6 +12,19 @@
         "PackageAxiTesting"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "PackageAxiNEWTesting",
+      "PackageDescription": "NEW API Placing Packages in repo for testing ",
+      "PackageVersion": "11.3",
+      "PackageAuthor": "Admin",
+      "PackageCreatedOn": "2026-05-20T03:16:51Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "PackageAxiNEWTesting"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }

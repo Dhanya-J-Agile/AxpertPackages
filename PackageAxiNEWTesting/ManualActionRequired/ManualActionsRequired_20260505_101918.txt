@@ -1,0 +1,16 @@
+ Manual actions required:
+Some files contain custom settings and were not automatically updated by the AxInstaller.
+Please review and apply the necessary changes manually as described in:
+D:\Axpert11.4\AxpertWeb\AxpertPlugins\Axi\\ManualActionRequired\Axi\axiConfig.json
+ Manual actions required:
+Some files contain custom settings and were not automatically updated by the AxInstaller.
+Please review and apply the necessary changes manually as described in:
+D:\Axpert11.4\AxpertWeb\AxpertPlugins\Axi\PluginScripts\AxiApi\Release\net8.0\ManualActionRequired\Axi\appsettings.json
+ Manual actions required:
+Some files contain custom settings and were not automatically updated by the AxInstaller.
+Please review and apply the necessary changes manually as described in:
+D:\Axpert11.4\AxpertWeb\AxpertPlugins\Axi\PluginScripts\AxiApi\Release\net8.0\publish\ManualActionRequired\Axi\appsettings.json
+ Manual actions required:
+Some files contain custom settings and were not automatically updated by the AxInstaller.
+Please review and apply the necessary changes manually as described in:
+D:\Axpert11.4\AxpertWeb\AxpertPlugins\Axi\PluginScripts\AxiApi\Release\net8.0\publish\ManualActionRequired\Axi\web.config
