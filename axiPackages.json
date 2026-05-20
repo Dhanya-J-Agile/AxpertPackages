@@ -1,0 +1,17 @@
+{
+  "Packages": [
+    {
+      "PackageName": "PackageAxiTesting",
+      "PackageDescription": "Placing Packages in repo for testing new",
+      "PackageVersion": "11.3",
+      "PackageAuthor": "Admin",
+      "PackageCreatedOn": "2026-05-20T03:02:47Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "PackageAxiTesting"
+      ],
+      "Category": "Enterprise"
+    }
+  ]
+}
