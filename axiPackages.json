@@ -226,6 +226,21 @@
         "V1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Sales Order - AXI",
+      "PackageDescription": "Sales Order - SAP",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-05-26T11:47:03Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Sales",
+        "Order",
+        "AXI"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
