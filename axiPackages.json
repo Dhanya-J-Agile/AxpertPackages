@@ -210,6 +210,22 @@
         "V2"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Sales Order - AXI V1",
+      "PackageDescription": "Sales Order - AXI V1",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-05-26T11:41:54Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Sales",
+        "Order",
+        "AXI",
+        "V1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
