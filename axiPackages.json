@@ -241,6 +241,20 @@
         "AXI"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ERP Check01",
+      "PackageDescription": "ERP Check01 desc",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-05-26T11:50:19Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ERP",
+        "Check01"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
