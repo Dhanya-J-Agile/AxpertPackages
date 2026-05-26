@@ -179,6 +179,21 @@
         "package"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Sales New QA",
+      "PackageDescription": "Sales New QA V1",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-05-26T05:32:25Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Sales",
+        "New",
+        "QA"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
