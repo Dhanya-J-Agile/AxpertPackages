@@ -194,6 +194,22 @@
         "QA"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Sales New QA V2",
+      "PackageDescription": "Sales New QA V2",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-05-26T05:34:45Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Sales",
+        "New",
+        "QA",
+        "V2"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
