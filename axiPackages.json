@@ -311,6 +311,20 @@
         "package"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "sales88_package",
+      "PackageDescription": "sales_package v1.0.0",
+      "PackageVersion": "2.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-05-27T06:31:29Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "sales88",
+        "package"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
