@@ -255,6 +255,20 @@
         "Check01"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "sales88_package",
+      "PackageDescription": "sales_package v1.0.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-05-27T05:41:12Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "sales88",
+        "package"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
