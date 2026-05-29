@@ -465,6 +465,21 @@
         "package"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Testing_new_1",
+      "PackageDescription": "new1 ",
+      "PackageVersion": "11.3",
+      "PackageAuthor": "Admin",
+      "PackageCreatedOn": "2026-05-29T02:25:05Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Testing",
+        "new",
+        "1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
