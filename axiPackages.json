@@ -525,6 +525,19 @@
         "1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "NewPack2",
+      "PackageDescription": "1.0.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-01T10:20:35Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "NewPack2"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
