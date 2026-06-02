@@ -828,6 +828,20 @@
         "Pat1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "MT1",
+      "Branch": "main",
+      "PackageDescription": "11",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-02T12:43:33Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "MT1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
