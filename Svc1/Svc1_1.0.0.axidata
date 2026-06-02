@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "message": "Data fetched successfully",
+  "hasData": true,
+  "resultpayload": {
+    "axputpayloads": {
+      "ARMSessionId": "ARM-pgbase114-5b24839c-b49d-4c7f-8fbb-0088f37df4f3",
+      "trace": true,
+      "validateonly": false,
+      "axclient_dateformat": "yyyy-MM-dd",
+      "millisecsintimestamp": true,
+      "data": [
+        {
+          "transid": "a__up",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "fromsource": "U",
+                "axuserrole": "All",
+                "axusername": "admin",
+                "comptype": "Form",
+                "formcap": "Set Value Check-(svc)",
+                "formtransid": "svc",
+                "createcol": "T",
+                "dc1table": "svc1",
+                "allowcreate": "Yes",
+                "viewcnd": "Grant view access only for selected fields",
+                "viewctrl": "1",
+                "view_flds": "SName-(sName),SGender-(sgender)",
+                "viewlist": "sName,sgender",
+                "editcnd": "No edit access",
+                "editctrl": "4",
+                "dupchk": "Allsvcadmin",
+                "axp_savedirective": "reloadaftersave"
+              }
+            },
+            "dc2": {
+              "row1": {
+                "sqltext": "select null from dual"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

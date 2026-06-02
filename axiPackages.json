@@ -716,6 +716,20 @@
         "NotificationPack2"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Svc1",
+      "Branch": "main",
+      "PackageDescription": "22",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-02T11:52:51Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Svc1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
