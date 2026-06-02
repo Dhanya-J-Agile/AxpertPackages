@@ -702,6 +702,20 @@
         "NotificationPack1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "NotificationPack2",
+      "Branch": "main",
+      "PackageDescription": "9.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-02T11:37:57Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "NotificationPack2"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
