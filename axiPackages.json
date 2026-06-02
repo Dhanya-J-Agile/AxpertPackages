@@ -800,6 +800,20 @@
         "Svc1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Emp1",
+      "Branch": "main",
+      "PackageDescription": "1.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-02T12:16:28Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Emp1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
