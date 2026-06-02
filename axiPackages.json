@@ -629,6 +629,19 @@
         "NewPack9"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "NewPack10",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-02T05:19:46Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "NewPack10"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
