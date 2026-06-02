@@ -772,6 +772,20 @@
         "Svc1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Svc1",
+      "Branch": "main",
+      "PackageDescription": "1.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-02T12:02:58Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Svc1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
