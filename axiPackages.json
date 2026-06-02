@@ -842,6 +842,20 @@
         "MT1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "New1",
+      "Branch": "main",
+      "PackageDescription": "11",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-02T13:31:22Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "New1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
