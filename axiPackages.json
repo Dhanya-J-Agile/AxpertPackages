@@ -758,6 +758,20 @@
         "NotificationPack1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "NotificationPack1",
+      "Branch": "branch2",
+      "PackageDescription": "1.0.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-02T11:07:09Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "NotificationPack1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
