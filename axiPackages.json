@@ -996,6 +996,20 @@
         "Test1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Test2",
+      "Branch": "main",
+      "PackageDescription": "1.0.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-03T13:11:41Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Test2"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
