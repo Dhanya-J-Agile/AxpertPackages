@@ -982,6 +982,20 @@
         "ExportFormTest3"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Test1",
+      "Branch": "main",
+      "PackageDescription": "1.0.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-03T12:48:13Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Test1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
