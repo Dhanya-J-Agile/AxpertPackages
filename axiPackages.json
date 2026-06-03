@@ -898,6 +898,20 @@
         "ExportTesting"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ExpExport",
+      "Branch": "main",
+      "PackageDescription": "1.0.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-03T06:29:56Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ExpExport"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
