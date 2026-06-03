@@ -954,6 +954,20 @@
         "ExportFormTest2"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "New2",
+      "Branch": "main",
+      "PackageDescription": "1.0.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-03T10:05:44Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "New2"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
