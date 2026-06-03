@@ -926,6 +926,20 @@
         "NewExport"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "formsExport",
+      "Branch": "main",
+      "PackageDescription": "1.0.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-03T07:19:45Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "formsExport"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
