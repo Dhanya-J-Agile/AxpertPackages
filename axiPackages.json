@@ -1024,6 +1024,20 @@
         "Test2"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Test3",
+      "Branch": "main",
+      "PackageDescription": "1.0.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-03T14:26:48Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Test3"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
