@@ -1066,6 +1066,20 @@
         "FastRep1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Form1",
+      "Branch": "main",
+      "PackageDescription": "1.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-04T08:38:52Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Form1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
