@@ -1094,6 +1094,20 @@
         "TestNotify1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Action1",
+      "Branch": "main",
+      "PackageDescription": "1.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-04T09:30:46Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Action1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
