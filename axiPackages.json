@@ -1150,6 +1150,20 @@
         "New45"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Empfo1",
+      "Branch": "main",
+      "PackageDescription": "1.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-04T10:07:07Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Empfo1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
