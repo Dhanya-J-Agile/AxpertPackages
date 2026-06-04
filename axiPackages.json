@@ -1192,6 +1192,20 @@
         "TestNot1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "TestNot2",
+      "Branch": "main",
+      "PackageDescription": "1.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-04T10:47:09Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "TestNot2"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
