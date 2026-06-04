@@ -1136,6 +1136,20 @@
         "TestNotify2"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "New45",
+      "Branch": "main",
+      "PackageDescription": "1212",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-04T10:05:56Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "New45"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
