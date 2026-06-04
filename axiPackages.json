@@ -1220,6 +1220,20 @@
         "FastRep3"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "FastRep3",
+      "Branch": "main",
+      "PackageDescription": "1.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-04T12:30:28Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "FastRep3"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
