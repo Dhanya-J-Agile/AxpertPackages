@@ -1080,6 +1080,20 @@
         "Form1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "TestNotify1",
+      "Branch": "main",
+      "PackageDescription": "1.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-04T08:50:46Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "TestNotify1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
