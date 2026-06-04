@@ -1038,6 +1038,20 @@
         "Test3"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "FatRep1",
+      "Branch": "main",
+      "PackageDescription": "1.0.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-04T07:22:26Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "FatRep1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
