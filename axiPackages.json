@@ -1122,6 +1122,20 @@
         "FastRep2"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "TestNotify2",
+      "Branch": "main",
+      "PackageDescription": "9.0",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-04T09:55:42Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "TestNotify2"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
