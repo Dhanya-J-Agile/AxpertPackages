@@ -1234,6 +1234,20 @@
         "FastRep3"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ADG1",
+      "Branch": "main",
+      "PackageDescription": "1",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-08T07:09:32Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ADG1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
