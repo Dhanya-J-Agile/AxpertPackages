@@ -1248,6 +1248,20 @@
         "ADG1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "AGD1",
+      "Branch": "main",
+      "PackageDescription": "9",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-08T07:18:10Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "AGD1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
