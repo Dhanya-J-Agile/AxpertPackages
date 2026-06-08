@@ -1262,6 +1262,20 @@
         "AGD1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "PackageNew08axi",
+      "Branch": "axi",
+      "PackageDescription": "1.0.0 ",
+      "PackageVersion": "11.3",
+      "PackageAuthor": "Admin",
+      "PackageCreatedOn": "2026-06-08T07:28:59Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "PackageNew08axi"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
