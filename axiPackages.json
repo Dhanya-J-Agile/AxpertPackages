@@ -1262,6 +1262,20 @@
         "AGD1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "AllScripts1",
+      "Branch": "main",
+      "PackageDescription": "1",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-08T07:46:00Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "AllScripts1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
