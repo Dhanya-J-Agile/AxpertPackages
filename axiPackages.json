@@ -1290,6 +1290,20 @@
         "AxiCurrency1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "AxiCurrency2",
+      "Branch": "main",
+      "PackageDescription": "1",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-10T08:58:53Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "AxiCurrency2"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
