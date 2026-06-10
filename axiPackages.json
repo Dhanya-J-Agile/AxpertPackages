@@ -1318,6 +1318,20 @@
         "tngtm1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "AxiCurrency3",
+      "Branch": "main",
+      "PackageDescription": "1",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-06-10T09:54:36Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "AxiCurrency3"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
