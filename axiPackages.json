@@ -1268,6 +1268,19 @@
         "01"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Test4",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-24T10:36:59Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Test4"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
