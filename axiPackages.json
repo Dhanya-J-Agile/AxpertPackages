@@ -1281,6 +1281,19 @@
         "Test4"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "NewTest2",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-27T06:56:43Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "NewTest2"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
