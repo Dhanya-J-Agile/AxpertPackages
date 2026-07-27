@@ -1307,6 +1307,19 @@
         "NewTest3"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "NewTest3",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-27T07:09:57Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "NewTest3"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
