@@ -1372,6 +1372,19 @@
         "Seq!"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "DBTest1",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-27T09:54:21Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "DBTest1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
