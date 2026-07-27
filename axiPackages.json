@@ -1437,6 +1437,19 @@
         "ObjTest6"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ObjTest7",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-27T11:20:20Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ObjTest7"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
