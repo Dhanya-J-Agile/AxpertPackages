@@ -1398,6 +1398,19 @@
         "AxiPackagetest1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ObjTest3",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-27T10:54:41Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ObjTest3"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
