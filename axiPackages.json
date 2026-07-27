@@ -1411,6 +1411,19 @@
         "ObjTest3"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ObjTest4",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-27T10:59:41Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ObjTest4"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
