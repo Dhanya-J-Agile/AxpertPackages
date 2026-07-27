@@ -1,0 +1,107 @@
+{
+  "success": true,
+  "message": "Data fetched successfully",
+  "hasData": true,
+  "resultpayload": {
+    "axputpayloads": {
+      "ARMSessionId": "ARM-pgbase114-d2878eb7-f4e8-4068-b1fc-e3d073256b2f",
+      "trace": true,
+      "validateonly": false,
+      "axclient_dateformat": "yyyy-MM-dd",
+      "millisecsintimestamp": true,
+      "data": [
+        {
+          "transid": "sect",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "pageno": "1769606916968",
+                "caption": "myinboxtesting01",
+                "AxpFilePath_hpImages": "pgbase114\\HTMLPages\\images\\*",
+                "isacoretrans": "Yes",
+                "menuposition": "Default"
+              }
+            },
+            "dc2": {},
+            "dc3": {
+              "row1": {
+                "filetype": "Js"
+              },
+              "row2": {
+                "filename": "myinboxtesting01",
+                "filetype": "Css"
+              }
+            }
+          }
+        },
+        {
+          "transid": "sect",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "pageno": "1769606916968",
+                "caption": "myinboxtesting01",
+                "AxpFilePath_hpImages": "pgbase114\\HTMLPages\\images\\*",
+                "isacoretrans": "Yes",
+                "menuposition": "Default"
+              }
+            },
+            "dc2": {},
+            "dc3": {
+              "row1": {
+                "filetype": "Js"
+              },
+              "row2": {
+                "filename": "myinboxtesting01",
+                "filetype": "Css"
+              }
+            }
+          }
+        },
+        {
+          "transid": "b_sql",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "sqlname": "cardmar13",
+                "sqlsrc": "For users",
+                "sqlsrccnd": "3",
+                "sqltext": "select name,salary, 'h1=ttstfm()' as link FROM smoke1",
+                "accessstring": "ALL",
+                "cachedata": "F",
+                "cacheinterval": "6 Hr",
+                "recid": "1136880000002",
+                "metadatajson": "{\"appname\":\"\",\"sqlquery\":\"select name,salary, 'h1=ttstfm()' as link FROM smoke1\"}"
+              }
+            },
+            "dc2": {}
+          }
+        },
+        {
+          "transid": "b_sql",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "sqlname": "ADS_canditate",
+                "sqlsrc": "For users",
+                "sqlsrccnd": "3",
+                "sqltext": "SELECT c.empid,c.empname,c.doj,c.yoe,c.dep,c.email,d2.paycomp,d2.paycompdesp,d2.oldvalue,d2.newvalue,d3.summary,d3.tot \r\nFROM candt1 c LEFT JOIN candt2 d2 ON c.candt1id = d2.candt1id LEFT JOIN candt3 d3 ON c.candt1id = d3.candt1id",
+                "accessstring": "ALL",
+                "sqlquerycols": "a,transid,g,recordid",
+                "cachedata": "F",
+                "cacheinterval": "6 Hr",
+                "recid": "1181010000002",
+                "metadatajson": "{\"appname\":\"\",\"sqlquery\":\"SELECT c.empid,c.empname,c.doj,c.yoe,c.dep,c.email,d2.paycomp,d2.paycompdesp,d2.oldvalue,d2.newvalue,d3.summary,d3.tot \\r\\nFROM candt1 c LEFT JOIN candt2 d2 ON c.candt1id = d2.candt1id LEFT JOIN candt3 d3 ON c.candt1id = d3.candt1id\"}"
+              }
+            },
+            "dc2": {}
+          }
+        }
+      ]
+    }
+  }
+}
