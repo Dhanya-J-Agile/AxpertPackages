@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "message": "Data fetched successfully",
+  "hasData": true,
+  "resultpayload": {
+    "axputpayloads": {
+      "ARMSessionId": "ARM-pgbase114-20d4fcb7-31c6-4300-9f65-8e8c73f264a8",
+      "trace": true,
+      "validateonly": false,
+      "axclient_dateformat": "yyyy-MM-dd",
+      "millisecsintimestamp": true,
+      "data": [
+        {
+          "transid": "ad_ur",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "axusergroup": "manager52",
+                "dhomepage": "None",
+                "homepage": "0",
+                "useprodform": "F",
+                "active": "T",
+                "rolev2": "T",
+                "respexists": "T",
+                "psource": "R",
+                "delflag": "Users are assigned to this role, cannot be deleted"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

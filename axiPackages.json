@@ -1320,6 +1320,19 @@
         "NewTest3"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "UserRole1",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-27T07:31:45Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "UserRole1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
