@@ -1359,6 +1359,19 @@
         "UserRole1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Seq!",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-27T09:52:46Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Seq!"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
