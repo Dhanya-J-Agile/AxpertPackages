@@ -4,7 +4,7 @@
   "hasData": true,
   "resultpayload": {
     "axputpayloads": {
-      "ARMSessionId": "ARM-pgbase114-20d4fcb7-31c6-4300-9f65-8e8c73f264a8",
+      "ARMSessionId": "ARM-pgbase114-2a68b4a3-bf37-41ab-afe8-9f30f00bbf80",
       "trace": true,
       "validateonly": false,
       "axclient_dateformat": "yyyy-MM-dd",
@@ -25,6 +25,218 @@
                 "respexists": "T",
                 "psource": "R",
                 "delflag": "Users are assigned to this role, cannot be deleted"
+              }
+            }
+          }
+        },
+        {
+          "transid": "a__ug",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "users_group_name": "Data Entry",
+                "usergroupflg": "10",
+                "users_group_description": "Group contains QA Members",
+                "isactive": "T",
+                "userexists": "Dependent data exists, cannot be deleted"
+              }
+            }
+          }
+        },
+        {
+          "transid": "axstc",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "asprops": "FetchSize",
+                "descp": "Page Size number of Iview data to be loaded",
+                "propsid": "1742550000008",
+                "setype": "All",
+                "props": "FetchSize",
+                "propsvaluecount": "23",
+                "propvalue1": "25",
+                "propsval": "25",
+                "aaction": "F",
+                "ahlink": "F",
+                "alltrstruct": "T",
+                "alliviews": "T",
+                "structcaption": "ALL Reports",
+                "structcaptiodmy": "ALL Reports",
+                "structname": "ALL Reports",
+                "stype": "Iview",
+                "userroles": "ALL",
+                "dupchk": "FetchSizeALL ReportsFetchSizeALL",
+                "purpose": "Page Size number of Iview data to be loaded"
+              }
+            }
+          }
+        },
+        {
+          "transid": "axstc",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "asprops": "FetchSize",
+                "descp": "Page Size number of Iview data to be loaded",
+                "propsid": "1742550000008",
+                "setype": "All",
+                "props": "FetchSize",
+                "propsvaluecount": "23",
+                "propvalue1": "95",
+                "propsval": "95",
+                "aaction": "F",
+                "ahlink": "F",
+                "alltrstruct": "T",
+                "alliviews": "T",
+                "structcaption": "AxPut Test form(tst23)",
+                "structcaptiodmy": "AxPut Test form(tst23)",
+                "structname": "tst23",
+                "stype": "Tstruct",
+                "userroles": "ALL",
+                "dupchk": "FetchSizetst23FetchSizeALL"
+              }
+            }
+          }
+        },
+        {
+          "transid": "axstc",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "asprops": "FetchSize",
+                "descp": "Page Size number of Iview data to be loaded",
+                "propsid": "1742550000008",
+                "setype": "All",
+                "props": "FetchSize",
+                "propsvaluecount": "23",
+                "propvalue1": "500",
+                "propsval": "500",
+                "aaction": "F",
+                "ahlink": "F",
+                "alltrstruct": "T",
+                "alliviews": "T",
+                "structcaption": "ALL Forms",
+                "structcaptiodmy": "ALL Forms",
+                "structname": "ALL Forms",
+                "stype": "Tstruct",
+                "userroles": "ALL",
+                "dupchk": "FetchSizeALL FormsFetchSizeALL"
+              }
+            }
+          }
+        },
+        {
+          "transid": "axstc",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "asprops": "FetchSize",
+                "descp": "Page Size number of Iview data to be loaded",
+                "propsid": "1742550000008",
+                "setype": "All",
+                "props": "FetchSize",
+                "propsvaluecount": "23",
+                "propvalue1": "10",
+                "propsval": "10",
+                "aaction": "F",
+                "ahlink": "F",
+                "alltrstruct": "T",
+                "alliviews": "T",
+                "structcaption": "AxRow Options(axrow)",
+                "structcaptiodmy": "AxRow Options(axrow)",
+                "structname": "axrow",
+                "stype": "Iview",
+                "userroles": "ALL",
+                "dupchk": "FetchSizeaxrowFetchSizeALL"
+              }
+            }
+          }
+        },
+        {
+          "transid": "axstc",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "asprops": "FetchSize",
+                "descp": "Page Size number of Iview data to be loaded",
+                "propsid": "1742550000008",
+                "setype": "All",
+                "props": "FetchSize",
+                "propsvaluecount": "23",
+                "propvalue1": "200000",
+                "propsval": "200000",
+                "aaction": "F",
+                "ahlink": "F",
+                "alltrstruct": "T",
+                "alliviews": "T",
+                "structcaption": "axpubls(axpubls)",
+                "structcaptiodmy": "axpubls(axpubls)",
+                "structname": "axpubls",
+                "stype": "Iview",
+                "userroles": "ALL",
+                "dupchk": "FetchSizeaxpublsFetchSizeALL"
+              }
+            }
+          }
+        },
+        {
+          "transid": "axstc",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "asprops": "FetchSize",
+                "descp": "Page Size number of Iview data to be loaded",
+                "propsid": "1742550000008",
+                "setype": "All",
+                "props": "FetchSize",
+                "propsvaluecount": "23",
+                "propvalue1": "all",
+                "propsval": "all",
+                "aaction": "F",
+                "ahlink": "F",
+                "alltrstruct": "T",
+                "alliviews": "T",
+                "structcaption": "Iview with 33000 records(iv33tr)",
+                "structcaptiodmy": "Iview with 33000 records(iv33tr)",
+                "structname": "iv33tr",
+                "stype": "Iview",
+                "userroles": "ALL",
+                "dupchk": "FetchSizeiv33trFetchSizeALL"
+              }
+            }
+          }
+        },
+        {
+          "transid": "axstc",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "asprops": "FetchSize",
+                "descp": "Page Size number of Iview data to be loaded",
+                "propsid": "1742550000008",
+                "setype": "All",
+                "props": "FetchSize",
+                "propsvaluecount": "23",
+                "propvalue1": "all",
+                "propsval": "all",
+                "aaction": "F",
+                "ahlink": "F",
+                "alltrstruct": "T",
+                "alliviews": "T",
+                "structcaption": "New Report(newrep)",
+                "structcaptiodmy": "New Report(newrep)",
+                "structname": "newrep",
+                "stype": "Iview",
+                "userroles": "ALL",
+                "dupchk": "FetchSizenewrepFetchSizeALL"
               }
             }
           }
