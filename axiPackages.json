@@ -1385,6 +1385,19 @@
         "DBTest1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "AxiPackagetest1",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-27T10:34:06Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "AxiPackagetest1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
