@@ -1671,6 +1671,19 @@
         "ExportPKG010"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ExportPKG011",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-28T13:57:40Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ExportPKG011"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
