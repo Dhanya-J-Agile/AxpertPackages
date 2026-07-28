@@ -1567,6 +1567,19 @@
         "NewObjTest6"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ExportPKG001",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-28T11:08:59Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ExportPKG001"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
