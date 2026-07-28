@@ -1593,6 +1593,19 @@
         "ExportPKG002"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ObjectTest3",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-28T13:28:37Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ObjectTest3"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
