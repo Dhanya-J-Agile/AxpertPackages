@@ -1606,6 +1606,19 @@
         "ObjectTest3"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ObjectTest4",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-28T13:48:22Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ObjectTest4"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
