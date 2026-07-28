@@ -1619,6 +1619,19 @@
         "ObjectTest4"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ExportPKG007",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-28T13:38:53Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ExportPKG007"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
