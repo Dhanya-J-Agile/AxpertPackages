@@ -1489,6 +1489,19 @@
         "ObjTest14"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "NewObjTest1",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-28T10:31:55Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "NewObjTest1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
