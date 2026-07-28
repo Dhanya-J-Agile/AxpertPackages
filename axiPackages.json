@@ -1528,6 +1528,19 @@
         "NewObjTest3"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "NewObjTest4",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-28T10:42:06Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "NewObjTest4"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
