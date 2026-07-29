@@ -1723,6 +1723,19 @@
         "ExportPKG015"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ObjectTest8",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-29T11:15:16Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ObjectTest8"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
