@@ -4,12 +4,41 @@
   "hasData": true,
   "resultpayload": {
     "axputpayloads": {
-      "ARMSessionId": "ARM-devpgbase114-c3783c22-d21b-435d-b9e3-a12da1a67024",
+      "ARMSessionId": "ARM-devpgbase114-1f871a51-6557-4399-a611-3297d8671a4e",
       "trace": true,
       "validateonly": false,
       "axclient_dateformat": "yyyy-MM-dd",
       "millisecsintimestamp": true,
       "data": [
+        {
+          "transid": "axvar",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "isconstant": "F",
+                "isvariable": "F",
+                "isappparam": "T",
+                "vpname": "m_company",
+                "isparam": "T",
+                "oldpcaption": "Compamy",
+                "pcaption": "Compamy",
+                "pdatatype": "Character",
+                "modeofentry": "Select",
+                "masterdlupd": "Compamy-(m_company",
+                "SQL_editor_psql": "SELECT DISTINCT c.companyname AS companyname,basecurrency,ISGROUPCOMPNY,c.SHORTNAME,c.ACC,c.ispos\r\nFROM company c,axusersbranch b,axusers u \r\nWHERE  c.companyname = b.company\r\nAND b.axuserid = u.axuserid\r\nAND (u.username = :username or fromuserlogin = 'T')\r\nORDER BY companyname\r\n\r\n",
+                "display": "T",
+                "readonly": "F",
+                "postaccept": "F",
+                "postselect": "T",
+                "customdatatype": "DropDown",
+                "datawidth": "200",
+                "ttransid": "axglo",
+                "dcselect": "Global Settings(dc1)"
+              }
+            }
+          }
+        },
         {
           "transid": "b_sql",
           "action": "create",
