@@ -1749,6 +1749,19 @@
         "ObjectTest8"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Test01",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-30T04:06:36Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Test01"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
