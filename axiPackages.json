@@ -1814,6 +1814,19 @@
         "ExportTestRandom"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ExportPKG018",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-31T05:57:42Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ExportPKG018"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
