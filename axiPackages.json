@@ -1853,6 +1853,19 @@
         "AxiDBObjectsExpTest01"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "AxiDBObjectsTest01",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-31T06:50:09Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "AxiDBObjectsTest01"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }

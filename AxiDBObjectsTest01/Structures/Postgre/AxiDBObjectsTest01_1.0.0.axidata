@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "message": "Data fetched successfully",
+  "hasData": true,
+  "resultpayload": {
+    "axputpayloads": {
+      "ARMSessionId": "ARM-devpgbase114-0ee31abc-1d6e-4e6d-b6f5-ea671e06e928",
+      "trace": true,
+      "validateonly": false,
+      "axclient_dateformat": "yyyy-MM-dd",
+      "millisecsintimestamp": true,
+      "data": [
+        {
+          "transid": "astcp",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "configprops": "AxiNew",
+                "propcode": "Date format",
+                "description": "AxiNew Developer Option",
+                "dupchk": "configtypeAxiNew",
+                "ptype": "All",
+                "caction": "F",
+                "chyperlink": "F",
+                "cfields": "F",
+                "alltstructs": "T",
+                "alliviews": "T",
+                "alluserroles": "F"
+              }
+            },
+            "dc2": {
+              "row1": {
+                "configvalues": "AxiNew"
+              }
+            }
+          }
+        },
+        {
+          "transid": "axstc",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "asprops": "AxiNew",
+                "descp": "AxiNew Developer Option",
+                "propsid": "1844770000000",
+                "setype": "All",
+                "props": "Date format",
+                "propsvaluecount": "1",
+                "propvalue1": "axinew",
+                "propsval": "axinew",
+                "aaction": "F",
+                "ahlink": "F",
+                "cfields": "F",
+                "alltrstruct": "T",
+                "alliviews": "T",
+                "alluserroles": "F",
+                "userroles": "ALL",
+                "dupchk": "AxiNewDate formatALL",
+                "purpose": "Testing"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
