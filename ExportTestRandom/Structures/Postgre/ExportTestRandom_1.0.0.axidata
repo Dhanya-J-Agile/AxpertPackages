@@ -1,0 +1,233 @@
+{
+  "success": true,
+  "message": "Data fetched successfully",
+  "hasData": true,
+  "resultpayload": {
+    "axputpayloads": {
+      "ARMSessionId": "ARM-devpgbase114-f4dc0853-fca1-4b8c-a069-5b360469575c",
+      "trace": true,
+      "validateonly": false,
+      "axclient_dateformat": "yyyy-MM-dd",
+      "millisecsintimestamp": true,
+      "data": [
+        {
+          "transid": "ad_db",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "transid": "ad_db",
+                "db_function": "tmp_vw_filter_variable",
+                "db_function_params": "username",
+                "event_onlogin": "T",
+                "event_onformload": "F",
+                "event_onreportload": "F",
+                "isdbobj": "T"
+              }
+            },
+            "dc2": {}
+          }
+        },
+        {
+          "transid": "b_sql",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "sqlname": "ADS_canditate",
+                "sqlsrc": "For users",
+                "sqlsrccnd": "3",
+                "sqltext": "SELECT c.empid,c.empname,c.doj,c.yoe,c.dep,c.email,d2.paycomp,d2.paycompdesp,d2.oldvalue,d2.newvalue,d3.summary,d3.tot \r\nFROM candt1 c LEFT JOIN candt2 d2 ON c.candt1id = d2.candt1id LEFT JOIN candt3 d3 ON c.candt1id = d3.candt1id",
+                "accessstring": "ALL",
+                "sqlquerycols": "a,transid,g,recordid",
+                "cachedata": "F",
+                "cacheinterval": "6 Hr",
+                "recid": "0",
+                "metadatajson": "{\"appname\":\"\",\"sqlquery\":\"SELECT c.empid,c.empname,c.doj,c.yoe,c.dep,c.email,d2.paycomp,d2.paycompdesp,d2.oldvalue,d2.newvalue,d3.summary,d3.tot \\r\\nFROM candt1 c LEFT JOIN candt2 d2 ON c.candt1id = d2.candt1id LEFT JOIN candt3 d3 ON c.candt1id = d3.candt1id\"}"
+              }
+            },
+            "dc2": {}
+          }
+        },
+        {
+          "transid": "a__fn",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "form": "Axi Currency Master-(axcur)",
+                "stransid": "axcur",
+                "txttransid": "axcur",
+                "active": "T"
+              }
+            },
+            "dc2": {
+              "row1": {
+                "notifyto": "Creator,Reporting manager",
+                "notifytocnd": "1,3",
+                "isemailreq": "F"
+              }
+            },
+            "dc3": {
+              "row1": {
+                "notify_sub_new": "Currency saved",
+                "notify_msg_new": "Saved"
+              }
+            },
+            "dc4": {},
+            "dc5": {},
+            "dc6": {}
+          }
+        },
+        {
+          "transid": "a__cd",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "cardtype": "Custom plugin",
+                "cardname": "Banner Card",
+                "card_datasource": "ds_homepage_banner_qa",
+                "pluginname": "Banner card",
+                "widthui": "50%",
+                "autorefresh": "0",
+                "cachedata": "false",
+                "orderno": "1",
+                "accessstringui": "admin,default,hhhhh,mpcohr,mpcoqa,newrole,notuser,PROD_S,QA,qa_test1,QAM,qanew,qanewres,role1,role2,role45,rolecards,rolecreation,roleexist,rolettt,SUP,Team lead,test8899,tester,TestQAAccess,testresponsibility,testretest,user1",
+                "heightui": "0",
+                "height": "0px",
+                "width": "col-md-6",
+                "accessstring": ",admin,default,hhhhh,mpcohr,mpcoqa,newrole,notuser,PROD_S,QA,qa_test1,QAM,qanew,qanewres,role1,role2,role45,rolecards,rolecreation,roleexist,rolettt,SUP,Team lead,test8899,tester,TestQAAccess,testresponsibility,testretest,user1,",
+                "chartjson": "{\"attributes\":{\"cck\":\"\",\"shwLgnd\":,\"xAxisL\":\"\",\"yAxisL\":\"\",\"gradClrChart\":,\"shwChartVal\":,\"threeD\":\"remove\",\"enableSlick\":,\"numbSym\":}}",
+                "con_name": "pgbase114",
+                "axpfilepath_imgcard": "\\\\127.0.0.1\\AxpFilepath\\pgbase114\\ImageCard\\*",
+                "inhomepage": "T",
+                "indashboard": "F"
+              }
+            }
+          }
+        },
+        {
+          "transid": "a__cd",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "cardtype": "chart",
+                "charttype": "column",
+                "cardname": "AxiNew-RequestCard",
+                "card_datasource": "AxiNew_datasource",
+                "widthui": "10%",
+                "autorefresh": "0",
+                "cachedata": "false",
+                "orderno": "80",
+                "accessstringui": "admin,default",
+                "heightui": "0",
+                "height": "0px",
+                "width": "col-md-1",
+                "accessstring": ",admin,default,",
+                "chartjson": "{\"attributes\":{\"cck\":\"\",\"shwLgnd\":,\"xAxisL\":\"\",\"yAxisL\":\"\",\"gradClrChart\":,\"shwChartVal\":,\"threeD\":\"remove\",\"enableSlick\":,\"numbSym\":}}",
+                "con_name": "devpgbase114",
+                "axpfilepath_imgcard": "\\\\127.0.0.1\\AxpFilepath\\devpgbase114\\ImageCard\\*",
+                "inhomepage": "F",
+                "indashboard": "T"
+              }
+            }
+          }
+        },
+        {
+          "transid": "ad_ur",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "axusergroup": "role45",
+                "dhomepage": "None",
+                "homepage": "0",
+                "useprodform": "F",
+                "active": "T",
+                "rolev2": "T",
+                "respexists": "T",
+                "psource": "R",
+                "delflag": "T"
+              }
+            }
+          }
+        },
+        {
+          "transid": "a__ug",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "users_group_name": "Product Master Initiator Level2",
+                "usergroupflg": "31",
+                "isactive": "T",
+                "userexists": "Dependent data exists, cannot be deleted"
+              }
+            }
+          }
+        },
+        {
+          "transid": "astcp",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "configprops": "Upload file types",
+                "propcode": "Upload file types",
+                "description": "Upload file types",
+                "dupchk": "configtypeUpload file types",
+                "ptype": "Tstruct",
+                "caction": "F",
+                "chyperlink": "F",
+                "cfields": "F",
+                "alltstructs": "T",
+                "alliviews": "F",
+                "alluserroles": "F"
+              }
+            },
+            "dc2": {
+              "row1": {
+                "configvalues": "true"
+              },
+              "row2": {
+                "configvalues": "false"
+              }
+            }
+          }
+        },
+        {
+          "transid": "axstc",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "asprops": "Upload file types",
+                "descp": "Upload file types",
+                "propsid": "1373110000000",
+                "setype": "Tstruct",
+                "props": "Upload file types",
+                "propsvaluecount": "2",
+                "propvalue1": "true",
+                "propsval": "true",
+                "aaction": "F",
+                "ahlink": "F",
+                "cfields": "F",
+                "alltrstruct": "T",
+                "alliviews": "F",
+                "alluserroles": "F",
+                "structcaption": "ALL Forms",
+                "structcaptiodmy": "ALL Forms",
+                "structname": "ALL Forms",
+                "stype": "Tstruct",
+                "userroles": "ALL",
+                "dupchk": "Upload file typesALL FormsUpload file typesALL"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

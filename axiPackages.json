@@ -1801,6 +1801,19 @@
         "ExportTest4"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ExportTestRandom",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-31T04:23:17Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ExportTestRandom"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
