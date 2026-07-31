@@ -1840,6 +1840,19 @@
         "ExportPKG019"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "AxiDBObjectsExpTest01",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-07-31T06:47:35Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "AxiDBObjectsExpTest01"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
