@@ -1866,6 +1866,19 @@
         "AxiDBObjectsTest01"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "Plgtest",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-08-05T08:20:13Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "Plgtest"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
