@@ -1905,6 +1905,19 @@
         "DBObjTest3"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ExpCheckTest01",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "karthik",
+      "PackageCreatedOn": "2026-08-06T09:07:09Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ExpCheckTest01"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
