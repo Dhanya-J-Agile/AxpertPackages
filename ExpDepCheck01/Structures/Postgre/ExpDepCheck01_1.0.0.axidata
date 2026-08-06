@@ -1,0 +1,224 @@
+{
+  "success": true,
+  "message": "Data fetched successfully",
+  "hasData": true,
+  "resultpayload": {
+    "axputpayloads": {
+      "ARMSessionId": "ARM-pgbase114-d92e1bb4-e1a5-4478-963b-03fcdf29d3da",
+      "trace": true,
+      "validateonly": false,
+      "axclient_dateformat": "yyyy-MM-dd",
+      "millisecsintimestamp": true,
+      "data": [
+        {
+          "transid": "a__fn",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "form": "State Master Check-(smc)",
+                "stransid": "smc",
+                "txttransid": "smc",
+                "active": "T"
+              }
+            },
+            "dc2": {
+              "row1": {
+                "notifyto": "Reporting manager,Creator",
+                "notifytocnd": "3,1",
+                "isemailreq": "F"
+              }
+            },
+            "dc3": {
+              "row1": {
+                "notify_sub_new": "Test",
+                "notify_msg_new": "Test"
+              }
+            },
+            "dc4": {},
+            "dc5": {},
+            "dc6": {}
+          }
+        },
+        {
+          "transid": "ad_pm",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "caption": "LeaveCheckOnEmpc",
+                "processowner": "admin-(Role)",
+                "powner": "admin",
+                "pownerflg": "2",
+                "delflag": "Cannot be deleted, Tasks are defined under this process",
+                "processtable": "AXPEG00070",
+                "createscr": "create table AXPEG00070 (eventdatetime varchar(30),taskid varchar(15),transid varchar(8),processname varchar(500),taskname varchar(500),keyvalue varchar(500),taskstatus varchar(15),tasktype varchar(15),username varchar(50),nexttask varchar(1000),displayicon varchar(500),displaytitle text,indexno numeric,keyfield varchar(200),recordid numeric,TimelineTitle varchar(4000))",
+                "post_display": ":"
+              }
+            },
+            "dc2": {},
+            "dc3": {
+              "row1": {
+                "amendment": "F",
+                "amendconfirm": "F"
+              }
+            }
+          }
+        },
+        {
+          "transid": "pgv2m",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "processname": "LeaveCheckOnEmpc",
+                "processownermst": "admin-(Role)",
+                "viewfilter": "or 1=1",
+                "TaskType": "Make",
+                "formcaption": "Employee master Check Export-(empmc)",
+                "formcaptionui": "Employee master Check Export",
+                "KeyFieldcaption": "User Name-(usname)",
+                "taskgroupname": "Group 1",
+                "TaskName": "Make - Employee master Check Export",
+                "transid": "empmc",
+                "KeyField": "usname",
+                "axpdef_peg_processmasterid": "1190550000004",
+                "amendment": "F",
+                "useridentificationfilter_of": "Initiator",
+                "IndexNo": "1",
+                "skiplevelcnd": "0",
+                "groupwithprior": "F",
+                "active": "T",
+                "oldindexno": "1",
+                "stransid": "pgv2m",
+                "isoptional": "F",
+                "usebusinessdatelogic": "F",
+                "indexdupchk": "LeaveCheckOnEmpc1",
+                "postactorname": "LeaveCheckOnEmpcMake - Employee master Check Export",
+                "posttoprocessuser": "F",
+                "rem_taskparamtmp": ","
+              }
+            },
+            "dc2": {},
+            "dc3": {
+              "row1": {
+                "recid": "1190770000004",
+                "DisplayTitle": ":usname",
+                "DIsplayContent": ":usname"
+              }
+            },
+            "dc4": {},
+            "dc5": {},
+            "dc6": {},
+            "dc7": {
+              "row1": {
+                "processownerui": "admin-(Role)",
+                "processowner": "admin",
+                "processownerflg": "2",
+                "reminder": "0",
+                "escalation": "0",
+                "taskparamsui": ",",
+                "taskparams": ",",
+                "formcontrl": "if recordid = 0 \r\n",
+                "postruledef": "F",
+                "allowedit": "F",
+                "rem_esc_startfrom": ","
+              }
+            }
+          }
+        },
+        {
+          "transid": "pgv2a",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "processname": "LeaveCheckOnEmpc",
+                "processownermst": "admin-(Role)",
+                "viewfilter": "or 1=1",
+                "oldindexno": "2",
+                "TaskType": "Approve",
+                "formcaption": "Employee master Check Export(empmc)",
+                "formcaptionui": "Employee master Check Export",
+                "KeyFieldcaption": "User Name-(usname)",
+                "transid": "empmc",
+                "KeyField": "usname",
+                "taskgroupname": "Group 1",
+                "TaskName": "Approve - Employee master Check Export",
+                "autoapprove": "F",
+                "assignto": "From form field",
+                "axpdef_peg_processmasterid": "1190550000004",
+                "amendment": "F",
+                "assigntoflg": "4",
+                "useridentificationfilter_of": "Initiator",
+                "allowsend": "None",
+                "allowsendflg": "1",
+                "fromfieldtransid": "empmc",
+                "formfieldscaption": "Reporting To-(rpmana)",
+                "formfieldname": "empmc.rpmana",
+                "skiplevelcnd": "0",
+                "IndexNo": "2",
+                "active": "T",
+                "groupwithprior": "F",
+                "approve_forwardto": "F",
+                "stransid": "pgv2a",
+                "orphan_autoapproval": "F",
+                "indexdupchk": "LeaveCheckOnEmpc2",
+                "initiator_approval": "F",
+                "postactorname": "LeaveCheckOnEmpcApprove - Employee master Check Export",
+                "posttoprocessuser": "F",
+                "rem_taskparamtmp": ",",
+                "returnable": "F",
+                "return_to_priorindex": "F",
+                "usebusinessdatelogic": "F"
+              }
+            },
+            "dc2": {},
+            "dc3": {
+              "row1": {
+                "recid": "1190990000004",
+                "DisplayTitle": ":usname",
+                "DIsplayContent": ":usname",
+                "showbuttons": "T"
+              }
+            },
+            "dc4": {},
+            "dc5": {},
+            "dc6": {},
+            "dc7": {},
+            "dc8": {
+              "row1": {
+                "processownerui": "admin-(Role)",
+                "processowner": "admin",
+                "taskparamsui": ",",
+                "taskparams": ",",
+                "processownerflg": "2",
+                "reminder": "0",
+                "escalation": "1",
+                "escalationcnt": "1",
+                "allowedit": "F",
+                "rem_esc_startfrom": ","
+              }
+            },
+            "dc9": {
+              "row1": {
+                "approvecmt": "F",
+                "returncmt": "T",
+                "rejectcmt": "T",
+                "postruledef": "F"
+              }
+            },
+            "dc10": {},
+            "dc11": {
+              "row1": {
+                "cmsg_appcheckflg": "F",
+                "cmsg_returnflg": "F",
+                "cmsg_rejectflg": "F"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

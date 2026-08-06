@@ -1931,6 +1931,19 @@
         "ExpCheck02"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ExpDepCheck01",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-08-06T09:52:59Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ExpDepCheck01"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
