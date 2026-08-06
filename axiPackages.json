@@ -1879,6 +1879,19 @@
         "Plgtest"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ExpPackageTest",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "karthik",
+      "PackageCreatedOn": "2026-08-06T09:01:41Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ExpPackageTest"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
