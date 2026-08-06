@@ -1892,6 +1892,19 @@
         "ExpPackageTest"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "DBObjTest3",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-08-06T09:03:01Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "DBObjTest3"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
