@@ -1983,6 +1983,19 @@
         "DBTestObj106"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "DBTestObj107",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-08-11T04:52:38Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "DBTestObj107"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
