@@ -2035,6 +2035,19 @@
         "DBTestObj108"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ExportPackageTest11",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "karthik",
+      "PackageCreatedOn": "2026-08-11T10:18:31Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ExportPackageTest11"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
