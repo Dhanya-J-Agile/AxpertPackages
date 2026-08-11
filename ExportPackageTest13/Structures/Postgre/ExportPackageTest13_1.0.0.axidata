@@ -1,0 +1,106 @@
+{
+  "success": true,
+  "message": "Data fetched successfully",
+  "hasData": true,
+  "resultpayload": {
+    "axputpayloads": {
+      "ARMSessionId": "ARM-pgbase114-84fe430e-4788-492b-9724-222b521423de",
+      "trace": true,
+      "validateonly": false,
+      "axclient_dateformat": "yyyy-MM-dd",
+      "millisecsintimestamp": true,
+      "data": [
+        {
+          "transid": "b_sql",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "sqlname": "exportc_ads",
+                "sqlsrc": "For developers",
+                "sqlsrccnd": "2",
+                "sqltext": "select count(*) from axusers",
+                "accessstring": "ALL",
+                "sqlquerycols": "username",
+                "pagination": "T",
+                "cachedata": "F",
+                "cacheinterval": "6 Hr",
+                "recid": "0",
+                "applydimensions": "F",
+                "metadatajson": "{\"appname\":\"\",\"sqlquery\":\"select count(*) from axusers\"}"
+              }
+            },
+            "dc2": {}
+          }
+        },
+        {
+          "transid": "a__fn",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "form": "Employee Master Check Test-(empct)",
+                "stransid": "empct",
+                "txttransid": "empct",
+                "active": "T"
+              }
+            },
+            "dc2": {
+              "row1": {
+                "notifyto": "Creator",
+                "notifytocnd": "1",
+                "isemailreq": "T"
+              }
+            },
+            "dc3": {
+              "row1": {
+                "notify_sub_new": "test",
+                "notify_msg_new": "test"
+              }
+            },
+            "dc4": {
+              "row1": {
+                "emailto": "Creator"
+              }
+            },
+            "dc5": {
+              "row1": {
+                "email_sub_new": "test",
+                "email_msg_new": "test"
+              }
+            },
+            "dc6": {}
+          }
+        },
+        {
+          "transid": "a__cd",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "cardtype": "chart",
+                "charttype": "bar",
+                "cardname": "ExportTestCard",
+                "card_datasource": "exportc_ads",
+                "widthui": "20%",
+                "autorefresh": "0",
+                "cachedata": "false",
+                "orderno": "91",
+                "accessstringui": "admin",
+                "heightui": "0",
+                "height": "0px",
+                "width": "col-md-2",
+                "accessstring": ",admin,",
+                "chartjson": "{\"attributes\":{\"cck\":\"\",\"shwLgnd\":,\"xAxisL\":\"\",\"yAxisL\":\"\",\"gradClrChart\":,\"shwChartVal\":,\"threeD\":\"remove\",\"enableSlick\":,\"numbSym\":}}",
+                "con_name": "pgbase114",
+                "axpfilepath_imgcard": "\\\\127.0.0.1\\AxpFilepath\\pgbase114\\ImageCard\\*",
+                "inhomepage": "F",
+                "indashboard": "T"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
