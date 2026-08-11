@@ -2009,6 +2009,19 @@
         "DBTestObj108"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "DBTestObj106",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-08-11T05:12:35Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "DBTestObj106"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
