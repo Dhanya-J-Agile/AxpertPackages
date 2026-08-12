@@ -2139,6 +2139,19 @@
         "DBTestObj217"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "DBTestObj218",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-08-12T11:31:39Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "DBTestObj218"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
