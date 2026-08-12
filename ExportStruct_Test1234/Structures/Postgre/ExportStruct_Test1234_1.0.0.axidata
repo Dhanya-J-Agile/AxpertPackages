@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "message": "Data fetched successfully",
+  "hasData": true,
+  "resultpayload": {
+    "axputpayloads": {
+      "ARMSessionId": "ARM-pgbase114-2460eb46-2400-4349-8e8b-6c0c2db6a68f",
+      "trace": true,
+      "validateonly": false,
+      "axclient_dateformat": "yyyy-MM-dd",
+      "millisecsintimestamp": true,
+      "data": [
+        {
+          "transid": "a__fn",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "form": "AxInstaller Test Form1-(axtfr)",
+                "stransid": "axtfr",
+                "txttransid": "axtfr",
+                "active": "T"
+              }
+            },
+            "dc2": {
+              "row1": {
+                "notifyto": "Creator",
+                "notifytocnd": "1",
+                "isemailreq": "T"
+              }
+            },
+            "dc3": {},
+            "dc4": {
+              "row1": {
+                "emailto": "Creator"
+              }
+            },
+            "dc5": {
+              "row1": {
+                "email_sub_new": "New data enetered",
+                "email_msg_new": "New data enetered"
+              }
+            },
+            "dc6": {}
+          }
+        }
+      ]
+    }
+  }
+}

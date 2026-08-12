@@ -2178,6 +2178,20 @@
         "DBTestObj220"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ExportStruct_Test1234",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "karthik",
+      "PackageCreatedOn": "2026-08-12T11:33:42Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ExportStruct",
+        "Test1234"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
