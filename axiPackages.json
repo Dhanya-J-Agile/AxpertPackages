@@ -2061,6 +2061,19 @@
         "ExportPackageTest13"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "DBTestObj203",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-08-12T11:21:32Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "DBTestObj203"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
