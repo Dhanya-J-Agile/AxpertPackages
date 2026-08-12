@@ -2192,6 +2192,19 @@
         "Test1234"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "NewExportTest01",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "karthik",
+      "PackageCreatedOn": "2026-08-12T12:17:26Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "NewExportTest01"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
