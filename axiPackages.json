@@ -2074,6 +2074,19 @@
         "DBTestObj203"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "DBTestObj202",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-08-12T11:23:06Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "DBTestObj202"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
