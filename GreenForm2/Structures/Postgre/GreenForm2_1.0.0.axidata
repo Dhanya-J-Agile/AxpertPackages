@@ -1,0 +1,242 @@
+{
+  "success": true,
+  "message": "Data fetched successfully",
+  "hasData": true,
+  "resultpayload": {
+    "axputpayloads": {
+      "ARMSessionId": "ARM-pgbase114-a60ef318-9947-4c49-b6fe-daa9185966f6",
+      "trace": true,
+      "validateonly": false,
+      "axclient_dateformat": "yyyy-MM-dd",
+      "millisecsintimestamp": true,
+      "data": [
+        {
+          "transid": "ad_pm",
+          "action": "create",
+          "masterObject": "dctes",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "caption": "TestProcess",
+                "processowner": "admin-(Role)",
+                "powner": "admin",
+                "pownerflg": "2",
+                "delflag": "Cannot be deleted, Tasks are defined under this process",
+                "processtable": "AXPEG00001",
+                "createscr": "create table AXPEG00001 (eventdatetime varchar(30),taskid varchar(15),transid varchar(8),processname varchar(500),taskname varchar(500),keyvalue varchar(500),taskstatus varchar(15),tasktype varchar(15),username varchar(50),nexttask varchar(1000),displayicon varchar(500),displaytitle text,indexno numeric,keyfield varchar(200),recordid numeric,TimelineTitle varchar(4000))"
+              }
+            },
+            "dc2": {},
+            "dc3": {
+              "row1": {
+                "amendment": "F",
+                "amendconfirm": "F"
+              }
+            }
+          }
+        },
+        {
+          "transid": "pgv2m",
+          "action": "create",
+          "masterObject": "dctes",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "processname": "TestProcess",
+                "processownermst": "admin-(Role)",
+                "viewfilter": "or 1=1",
+                "TaskType": "Make",
+                "formcaption": "DC Test Form-(dctes)",
+                "formcaptionui": "DC Test Form",
+                "KeyFieldcaption": "Date-(dte)",
+                "taskgroupname": "Group 1",
+                "TaskName": "Make - DC Test Form",
+                "transid": "dctes",
+                "KeyField": "dte",
+                "axpdef_peg_processmasterid": "1001330000000",
+                "amendment": "F",
+                "useridentificationfilter_of": "Initiator",
+                "IndexNo": "1",
+                "skiplevelcnd": "0",
+                "groupwithprior": "F",
+                "active": "T",
+                "oldindexno": "1",
+                "stransid": "pgv2m",
+                "isoptional": "F",
+                "usebusinessdatelogic": "F",
+                "indexdupchk": "TestProcess1",
+                "postactorname": "TestProcessMake - DC Test Form",
+                "posttoprocessuser": "F",
+                "rem_taskparamtmp": ",designation-(dcche.cdesignation),empdata-(dcche.cempdata),,,,,,,,"
+              }
+            },
+            "dc2": {},
+            "dc3": {
+              "row1": {
+                "recid": "1175660000001",
+                "DisplayTitle": ":dte",
+                "DIsplayContent": ":dte"
+              }
+            },
+            "dc4": {},
+            "dc5": {},
+            "dc6": {},
+            "dc7": {
+              "row1": {
+                "processownerui": "admin-(Role)",
+                "processowner": "admin",
+                "processownerflg": "2",
+                "reminder": "0",
+                "escalation": "0",
+                "taskparamsui": ",designation-(dcche.cdesignation),empdata-(dcche.cempdata),,,,,,,,",
+                "taskparams": ",dcche.cdesignation,dcche.cempdata,,,,,,,,",
+                "formcontrl": "if recordid = 0 \r\n",
+                "postruledef": "F",
+                "allowedit": "F",
+                "rem_esc_startfrom": ","
+              }
+            }
+          }
+        },
+        {
+          "transid": "pgv2a",
+          "action": "create",
+          "masterObject": "dctes",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "processname": "TestProcess",
+                "processownermst": "admin-(Role)",
+                "viewfilter": "or 1=1",
+                "oldindexno": "2",
+                "TaskType": "Approve",
+                "formcaption": "DC Test Form(dctes)",
+                "formcaptionui": "DC Test Form",
+                "KeyFieldcaption": "Employee Name-(ename)",
+                "transid": "dctes",
+                "KeyField": "ename",
+                "taskgroupname": "Group 1",
+                "TaskName": "Approve - DC Test Form",
+                "autoapprove": "F",
+                "assignto": "Actor",
+                "axpdef_peg_processmasterid": "1001330000000",
+                "amendment": "F",
+                "assigntoflg": "2",
+                "assigntoactor": "prajwalas",
+                "useridentificationfilter_of": "Initiator",
+                "allowsend": "None",
+                "allowsendflg": "1",
+                "fromfieldtransid": "dctes",
+                "skiplevelcnd": "0",
+                "IndexNo": "2",
+                "active": "T",
+                "groupwithprior": "F",
+                "approve_forwardto": "F",
+                "stransid": "pgv2a",
+                "orphan_autoapproval": "F",
+                "indexdupchk": "TestProcess3",
+                "axpdef_peg_actorid": "1700770000000",
+                "initiator_approval": "F",
+                "postactorname": "TestProcessApprove - DC Test Form",
+                "posttoprocessuser": "F",
+                "rem_taskparamtmp": ",,,,,,,,,,,,,,,,",
+                "returnable": "T",
+                "return_to_priorindex": "F",
+                "usebusinessdatelogic": "F"
+              }
+            },
+            "dc2": {},
+            "dc3": {
+              "row1": {
+                "recid": "1176010000001",
+                "DisplayTitle": ":ename",
+                "DIsplayContent": ":ename",
+                "showbuttons": "T"
+              }
+            },
+            "dc4": {
+              "row1": {
+                "cmd": "Set value to field",
+                "pcnd": "4",
+                "cmdtmp": "Enable",
+                "tbldtls": "name-(name)|sitara",
+                "axpscript": "SetValue({name},1,{sitara})",
+                "axscripttmp": "1~nc~Axenablecontrols({dept})~nl~",
+                "formctlcnt": "1"
+              },
+              "row2": {
+                "cmd": "Enable",
+                "pcnd": "2",
+                "cmdtmp": "Enable",
+                "tbldtls": "designation-(designation)",
+                "axpscript": "Axenablecontrols({designation})",
+                "axscripttmp": "2~nc~Axenablecontrols({dept})~nl~",
+                "formctlcnt": "1"
+              },
+              "row3": {
+                "cmd": "Enable",
+                "pcnd": "2",
+                "cmdtmp": "Enable",
+                "tbldtls": "dept-(dept)",
+                "axpscript": "Axenablecontrols({dept})",
+                "axscripttmp": "3~nc~Axenablecontrols({dept})~nl~",
+                "formctlcnt": "1"
+              }
+            },
+            "dc5": {},
+            "dc6": {},
+            "dc7": {},
+            "dc8": {
+              "row1": {
+                "processownerui": "admin-(Role)",
+                "processowner": "admin",
+                "taskparamsui": ",,,,,,,,,,,,,,,,",
+                "taskparams": ",,,,,,,,,,,,,,,,",
+                "processownerflg": "2",
+                "reminder": "0",
+                "escalation": "1",
+                "escalationcnt": "1",
+                "allowedit": "F",
+                "formctrltmp": "1~nc~Axenablecontrols({dept})~nl~,2~nc~Axenablecontrols({dept})~nl~,3~nc~Axenablecontrols({dept})~nl~",
+                "formcontrl": "SetValue({name},1,{sitara})\r\nAxenablecontrols({designation})\r\nAxenablecontrols({dept})\r\n",
+                "rem_esc_startfrom": ","
+              }
+            },
+            "dc9": {
+              "row1": {
+                "approvecmt": "T",
+                "returncmt": "T",
+                "rejectcmt": "T",
+                "approvereasons": "validated,correct info",
+                "defapptext": "approved",
+                "returnreasons": "data issue,incorrect info",
+                "defrettext": "returned please check ",
+                "RejectReasons": "information skipped,reciept not uploaded",
+                "defregtext": "rejected please check",
+                "postruledef": "T"
+              }
+            },
+            "dc10": {
+              "row1": {
+                "PostNotify": "pegtestapprovel",
+                "PostNotify_return": "pegtestapprovel",
+                "PostNotify_reject": "pegtestapprovel",
+                "TaskNotification": "pegtestapprovel"
+              }
+            },
+            "dc11": {
+              "row1": {
+                "cmsg_appcheckflg": "F",
+                "cmsg_appcheck": "Are you Sure you want  to Approve",
+                "cmsg_returnflg": "F",
+                "cmsg_return": "Are you Sure you want to Return",
+                "cmsg_rejectflg": "F",
+                "cmsg_reject": "Are you sure you want to reject"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
