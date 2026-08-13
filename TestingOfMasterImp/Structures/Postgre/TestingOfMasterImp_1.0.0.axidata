@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "message": "Data fetched successfully",
+  "hasData": true,
+  "resultpayload": {
+    "axputpayloads": {
+      "ARMSessionId": "ARM-pgbase114-38feee02-eb25-4ecf-979e-f7573de3544f",
+      "trace": true,
+      "validateonly": false,
+      "axclient_dateformat": "yyyy-MM-dd",
+      "millisecsintimestamp": true,
+      "data": [
+        {
+          "transid": "a__fn",
+          "action": "create",
+          "masterObject": "empct",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "form": "Employee Master Check Test-(empct)",
+                "stransid": "empct",
+                "txttransid": "empct",
+                "active": "T"
+              }
+            },
+            "dc2": {
+              "row1": {
+                "notifyto": "Creator",
+                "notifytocnd": "1",
+                "isemailreq": "T"
+              }
+            },
+            "dc3": {
+              "row1": {
+                "notify_sub_new": "test",
+                "notify_msg_new": "test"
+              }
+            },
+            "dc4": {
+              "row1": {
+                "emailto": "Creator"
+              }
+            },
+            "dc5": {
+              "row1": {
+                "email_sub_new": "test",
+                "email_msg_new": "test"
+              }
+            },
+            "dc6": {}
+          }
+        }
+      ]
+    }
+  }
+}

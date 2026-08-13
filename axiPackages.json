@@ -2205,6 +2205,19 @@
         "NewExportTest01"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "TestingOfMasterImp",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "karthik",
+      "PackageCreatedOn": "2026-08-13T10:07:32Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "TestingOfMasterImp"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
