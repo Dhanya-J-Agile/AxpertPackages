@@ -2257,6 +2257,19 @@
         "PackageFinal"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "NewPackageTest",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "karthik",
+      "PackageCreatedOn": "2026-08-17T09:00:03Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "NewPackageTest"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
