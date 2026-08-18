@@ -13,7 +13,7 @@
         {
           "transid": "a__fn",
           "action": "create",
-          "masterObject": "empct",
+          "masterObject": "empct1",
           "submitdata": {
             "dc1": {
               "row1": {
