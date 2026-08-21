@@ -2270,6 +2270,19 @@
         "NewPackageTest"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "NewPackagemain",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "karthik",
+      "PackageCreatedOn": "2026-08-21T12:24:25Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "NewPackagemain"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
