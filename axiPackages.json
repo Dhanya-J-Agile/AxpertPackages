@@ -2283,6 +2283,19 @@
         "NewPackagemain"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "SkiptestPkg",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "karthik",
+      "PackageCreatedOn": "2026-08-21T12:32:19Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "SkiptestPkg"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
