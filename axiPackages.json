@@ -2322,6 +2322,19 @@
         "PackageTestQA1"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "PackageTestQA2",
+      "PackageDescription": "PACKAGE FOR TESTING QA",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "karthik",
+      "PackageCreatedOn": "2026-09-02T07:44:02Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "PackageTestQA2"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
