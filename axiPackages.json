@@ -2296,6 +2296,19 @@
         "SkiptestPkg"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "AAANewTest",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "karthik",
+      "PackageCreatedOn": "2026-09-02T07:29:34Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "AAANewTest"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
