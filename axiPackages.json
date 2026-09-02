@@ -2309,6 +2309,19 @@
         "AAANewTest"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "PackageTestQA1",
+      "PackageDescription": "TESTING PACKAGE BY QA",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "karthik",
+      "PackageCreatedOn": "2026-09-02T07:33:27Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "PackageTestQA1"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }

@@ -1,0 +1,417 @@
+{
+  "success": true,
+  "message": "Data fetched successfully",
+  "hasData": true,
+  "resultpayload": {
+    "axputpayloads": {
+      "ARMSessionId": "ARM-pgbase114-89eacd42-787f-4891-8a69-019955840417",
+      "trace": true,
+      "validateonly": false,
+      "axclient_dateformat": "yyyy-MM-dd",
+      "millisecsintimestamp": true,
+      "data": [
+        {
+          "transid": "b_sql",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "sqlname": "area",
+                "sqlsrc": "For users",
+                "sqlsrccnd": "3",
+                "sqltext": "Select name as data_label,name as x_axis,count(*) as value,'h1=tempfr()' as link from empfr1\r\nGroup BY name",
+                "accessstring": "ALL",
+                "cachedata": "T",
+                "cacheinterval": "6 Hr",
+                "recid": "0",
+                "metadatajson": "{\"appname\":\"\",\"sqlquery\":\"Select name as data_label,name as x_axis,count(*) as value,'h1=tempfr()' as link from empfr1\\r\\nGroup BY name\"}"
+              }
+            },
+            "dc2": {
+              "row1": {
+                "fldname": "data_label",
+                "fldcaption": "data_label",
+                "datatypeui": "character",
+                "fdatatype": "c",
+                "normalized": "F"
+              },
+              "row2": {
+                "fldname": "data_label",
+                "fldcaption": "data_label",
+                "datatypeui": "character",
+                "fdatatype": "c",
+                "normalized": "F"
+              },
+              "row3": {
+                "fldname": "data_label",
+                "fldcaption": "data_label",
+                "datatypeui": "character",
+                "fdatatype": "c",
+                "normalized": "F"
+              },
+              "row4": {
+                "fldname": "x_axis",
+                "fldcaption": "x_axis",
+                "datatypeui": "character",
+                "fdatatype": "c",
+                "normalized": "F"
+              },
+              "row5": {
+                "fldname": "x_axis",
+                "fldcaption": "x_axis",
+                "datatypeui": "character",
+                "fdatatype": "c",
+                "normalized": "F"
+              },
+              "row6": {
+                "fldname": "x_axis",
+                "fldcaption": "x_axis",
+                "datatypeui": "character",
+                "fdatatype": "c",
+                "normalized": "F"
+              },
+              "row7": {
+                "fldname": "value",
+                "fldcaption": "value",
+                "datatypeui": "character",
+                "fdatatype": "c",
+                "normalized": "F"
+              },
+              "row8": {
+                "fldname": "value",
+                "fldcaption": "value",
+                "datatypeui": "character",
+                "fdatatype": "c",
+                "normalized": "F"
+              },
+              "row9": {
+                "fldname": "value",
+                "fldcaption": "value",
+                "datatypeui": "character",
+                "fdatatype": "c",
+                "normalized": "F"
+              },
+              "row10": {
+                "fldname": "link",
+                "fldcaption": "link",
+                "datatypeui": "character",
+                "fdatatype": "c",
+                "normalized": "F"
+              },
+              "row11": {
+                "fldname": "link",
+                "fldcaption": "link",
+                "datatypeui": "character",
+                "fdatatype": "c",
+                "normalized": "F"
+              },
+              "row12": {
+                "fldname": "link",
+                "fldcaption": "link",
+                "datatypeui": "character",
+                "fdatatype": "c",
+                "normalized": "F"
+              }
+            }
+          }
+        },
+        {
+          "transid": "ad_pm",
+          "action": "create",
+          "masterObject": "amefm",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "caption": "Amendmenttest",
+                "processowner": "default-(Role)",
+                "powner": "default",
+                "pownerflg": "2",
+                "delflag": "Cannot be deleted, Tasks are defined under this process",
+                "processtable": "AXPEG00062",
+                "createscr": "create table AXPEG00062 (eventdatetime varchar(30),taskid varchar(15),transid varchar(8),processname varchar(500),taskname varchar(500),keyvalue varchar(500),taskstatus varchar(15),tasktype varchar(15),username varchar(50),nexttask varchar(1000),displayicon varchar(500),displaytitle text,indexno numeric,keyfield varchar(200),recordid numeric,TimelineTitle varchar(4000))",
+                "post_display": ":"
+              }
+            },
+            "dc2": {},
+            "dc3": {
+              "row1": {
+                "amendment": "T",
+                "amendconfirm": "F"
+              }
+            }
+          }
+        },
+        {
+          "transid": "pgv2m",
+          "action": "create",
+          "masterObject": "amefm",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "processname": "Amendmenttest",
+                "processownermst": "default-(Role)",
+                "viewfilter": "or 1=1",
+                "TaskType": "Make",
+                "formcaption": "Amendment Form Test-(amefm)",
+                "formcaptionui": "Amendment Form Test",
+                "KeyFieldcaption": "field1-(field1)",
+                "taskgroupname": "Group 1",
+                "TaskName": "Make - Amendment Form Test",
+                "transid": "amefm",
+                "KeyField": "field1",
+                "axpdef_peg_processmasterid": "1722770000000",
+                "amendment": "T",
+                "useridentificationfilter_of": "Initiator",
+                "IndexNo": "1",
+                "skiplevelcnd": "0",
+                "groupwithprior": "F",
+                "active": "T",
+                "oldindexno": "1",
+                "stransid": "pgv2m",
+                "isoptional": "F",
+                "usebusinessdatelogic": "F",
+                "indexdupchk": "Amendmenttest1",
+                "postactorname": "AmendmenttestMake - Amendment Form Test",
+                "posttoprocessuser": "F",
+                "rem_taskparamtmp": ",,,,,"
+              }
+            },
+            "dc2": {},
+            "dc3": {
+              "row1": {
+                "recid": "1722880000000",
+                "DisplayTitle": ":field1",
+                "DIsplayContent": ":field1"
+              }
+            },
+            "dc4": {},
+            "dc5": {},
+            "dc6": {},
+            "dc7": {
+              "row1": {
+                "processownerui": "default-(Role)",
+                "processowner": "default",
+                "processownerflg": "2",
+                "reminder": "0",
+                "escalation": "0",
+                "taskparamsui": ",,,,,",
+                "taskparams": ",,,,,",
+                "formcontrl": "if recordid = 0 \r\n",
+                "postruledef": "F",
+                "allowedit": "F",
+                "rem_esc_startfrom": ","
+              }
+            }
+          }
+        },
+        {
+          "transid": "pgv2a",
+          "action": "create",
+          "masterObject": "amefm",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "processname": "Amendmenttest",
+                "processownermst": "default-(Role)",
+                "viewfilter": "or 1=1",
+                "oldindexno": "2",
+                "TaskType": "Approve",
+                "formcaption": "Amendment Form Test(amefm)",
+                "formcaptionui": "Amendment Form Test",
+                "KeyFieldcaption": "field1-(field1)",
+                "transid": "amefm",
+                "KeyField": "field1",
+                "taskgroupname": "Group 1",
+                "TaskName": "Approve - Amendment Form Test",
+                "autoapprove": "F",
+                "assignto": "Reporting manager",
+                "axpdef_peg_processmasterid": "1722770000000",
+                "amendment": "T",
+                "assigntoflg": "1",
+                "useridentificationfilter_of": "Initiator",
+                "allowsend": "None",
+                "allowsendflg": "1",
+                "fromfieldtransid": "amefm",
+                "skiplevelcnd": "0",
+                "IndexNo": "2",
+                "active": "T",
+                "groupwithprior": "F",
+                "approve_forwardto": "F",
+                "stransid": "pgv2a",
+                "orphan_autoapproval": "F",
+                "indexdupchk": "Amendmenttest2",
+                "initiator_approval": "F",
+                "postactorname": "AmendmenttestApprove - Amendment Form Test",
+                "posttoprocessuser": "F",
+                "rem_taskparamtmp": ",,,,,",
+                "returnable": "T",
+                "return_to_priorindex": "F",
+                "usebusinessdatelogic": "F"
+              }
+            },
+            "dc2": {},
+            "dc3": {
+              "row1": {
+                "recid": "1722990000000",
+                "DisplayTitle": ":field1",
+                "DIsplayContent": ":field1",
+                "showbuttons": "T"
+              }
+            },
+            "dc4": {},
+            "dc5": {},
+            "dc6": {},
+            "dc7": {},
+            "dc8": {
+              "row1": {
+                "processownerui": "default-(Role)",
+                "processowner": "default",
+                "taskparamsui": ",,,,,",
+                "taskparams": ",,,,,",
+                "processownerflg": "2",
+                "reminder": "0",
+                "escalation": "1",
+                "escalationcnt": "1",
+                "allowedit": "F",
+                "rem_esc_startfrom": ","
+              }
+            },
+            "dc9": {
+              "row1": {
+                "approvecmt": "F",
+                "returncmt": "T",
+                "rejectcmt": "T",
+                "postruledef": "F"
+              }
+            },
+            "dc10": {},
+            "dc11": {
+              "row1": {
+                "cmsg_appcheckflg": "F",
+                "cmsg_returnflg": "F",
+                "cmsg_rejectflg": "F"
+              }
+            }
+          }
+        },
+        {
+          "transid": "ad_pm",
+          "action": "create",
+          "masterObject": "alffr",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "caption": "test2",
+                "processowner": "default-(Role)",
+                "powner": "default",
+                "pownerflg": "2",
+                "delflag": "Cannot be deleted, Tasks are defined under this process",
+                "processtable": "AXPEG00043",
+                "createscr": "create table AXPEG00043 (eventdatetime varchar(30),taskid varchar(15),transid varchar(8),processname varchar(500),taskname varchar(500),keyvalue varchar(500),taskstatus varchar(15),tasktype varchar(15),username varchar(50),nexttask varchar(1000),displayicon varchar(500),displaytitle text,indexno numeric,keyfield varchar(200),recordid numeric,TimelineTitle varchar(4000))"
+              }
+            },
+            "dc2": {},
+            "dc3": {
+              "row1": {
+                "amendment": "F",
+                "amendconfirm": "F"
+              }
+            }
+          }
+        },
+        {
+          "transid": "pgv2m",
+          "action": "create",
+          "masterObject": "alffr",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "processname": "test2",
+                "processownermst": "default-(Role)",
+                "viewfilter": "or 1=1",
+                "TaskType": "Make",
+                "formcaption": "All Field Grid Test-(alffr)",
+                "formcaptionui": "All Field Grid Test",
+                "KeyFieldcaption": "Check Box-(checkbox)",
+                "taskgroupname": "Group 1",
+                "TaskName": "Make - All Field Grid Test",
+                "transid": "alffr",
+                "KeyField": "checkbox",
+                "axpdef_peg_processmasterid": "1417110000003",
+                "amendment": "F",
+                "useridentificationfilter_of": "Initiator",
+                "IndexNo": "2",
+                "skiplevelcnd": "0",
+                "groupwithprior": "F",
+                "active": "T",
+                "oldindexno": "2",
+                "stransid": "pgv2m",
+                "isoptional": "F",
+                "usebusinessdatelogic": "F",
+                "indexdupchk": "test21",
+                "postactorname": "test2Make - All Field Grid Test",
+                "posttoprocessuser": "F",
+                "rem_taskparamtmp": ",,,,,,"
+              }
+            },
+            "dc2": {},
+            "dc3": {
+              "row1": {
+                "recid": "1613990000000",
+                "DisplayTitle": ":checkbox",
+                "DIsplayContent": ":checkbox"
+              }
+            },
+            "dc4": {},
+            "dc5": {},
+            "dc6": {},
+            "dc7": {
+              "row1": {
+                "processownerui": "default-(Role)",
+                "processowner": "default",
+                "processownerflg": "2",
+                "reminder": "0",
+                "escalation": "0",
+                "taskparamsui": ",,,,,,",
+                "taskparams": ",,,,,,",
+                "formcontrl": "if recordid = 0 \r\n",
+                "postruledef": "F",
+                "allowedit": "F",
+                "rem_esc_startfrom": ","
+              }
+            }
+          }
+        },
+        {
+          "transid": "a__cd",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "cardtype": "chart",
+                "charttype": "area",
+                "cardname": "Area Chart",
+                "card_datasource": "area",
+                "widthui": "100%",
+                "autorefresh": "0",
+                "cachedata": "false",
+                "orderno": "12",
+                "chartprops": "skies|True|1||True|True|True|False|True",
+                "accessstringui": "admin,default,QA",
+                "heightui": "0",
+                "height": "0px",
+                "width": "col-md-12",
+                "accessstring": ",admin,default,QA,",
+                "chartjson": "{\"attributes\":{\"cck\":\"skies\",\"shwLgnd\":true,\"xAxisL\":\"1\",\"yAxisL\":\"\",\"gradClrChart\":true,\"shwChartVal\":true,\"threeD\":\"create\",\"enableSlick\":false,\"numbSym\":true}}",
+                "con_name": "pgbase114",
+                "axpfilepath_imgcard": "\\\\127.0.0.1\\AxpFilepath\\pgbase114\\ImageCard\\*",
+                "inhomepage": "T",
+                "indashboard": "T"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
