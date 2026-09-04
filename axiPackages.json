@@ -2374,6 +2374,19 @@
         "DataPkgNew"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "TestDataPackage",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "karthik",
+      "PackageCreatedOn": "2026-09-04T09:07:23Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "TestDataPackage"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
