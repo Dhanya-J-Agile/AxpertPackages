@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "message": "Data fetched successfully",
+  "hasData": true,
+  "resultpayload": {
+    "axputpayloads": {
+      "ARMSessionId": "ARM-devpgbase114-340dfb0c-bcdd-4d10-af30-ce3f776ae276",
+      "trace": true,
+      "validateonly": false,
+      "axclient_dateformat": "yyyy-MM-dd",
+      "millisecsintimestamp": true,
+      "data": [
+        {
+          "transid": "sect",
+          "action": "create",
+          "submitdata": {
+            "dc1": {
+              "row1": {
+                "pageno": "1784290396716",
+                "caption": "PayrollDashboard",
+                "AxpFilePath_hpImages": "pgbase114\\HTMLPages\\images\\*",
+                "isacoretrans": "Yes",
+                "menuposition": "Default"
+              }
+            },
+            "dc2": {},
+            "dc3": {}
+          }
+        }
+      ]
+    }
+  }
+}

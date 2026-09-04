@@ -2335,6 +2335,19 @@
         "PackageTestQA2"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "ZIPBase",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "admin",
+      "PackageCreatedOn": "2026-09-04T05:24:59Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "ZIPBase"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
