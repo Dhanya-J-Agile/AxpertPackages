@@ -2348,6 +2348,19 @@
         "ZIPBase"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "NewPkgTest",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "karthik",
+      "PackageCreatedOn": "2026-09-04T07:52:08Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "NewPkgTest"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
