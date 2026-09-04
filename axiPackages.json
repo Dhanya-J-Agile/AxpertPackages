@@ -2361,6 +2361,19 @@
         "NewPkgTest"
       ],
       "Category": "Enterprise"
+    },
+    {
+      "PackageName": "DataPkgNew",
+      "PackageDescription": "",
+      "PackageVersion": "1.0.0",
+      "PackageAuthor": "karthik",
+      "PackageCreatedOn": "2026-09-04T08:46:35Z",
+      "Icon": "shopping_cart",
+      "ColorClass": "orange",
+      "Tags": [
+        "DataPkgNew"
+      ],
+      "Category": "Enterprise"
     }
   ]
 }
